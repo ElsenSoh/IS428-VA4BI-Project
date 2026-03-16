@@ -5,8 +5,8 @@ website:
   title: "IS428-VA4BI-Project"
   navbar:
     left:
-      - href: Introduction
-        text: Introduction.html  
+      - href: introduction.html
+        text: Introduction  
     right: 
       - href: index.qmd
         text: Home
