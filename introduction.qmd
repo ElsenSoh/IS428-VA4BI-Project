@@ -1,6 +1,6 @@
 ---
 title: "Introduction"
-author: "E.S."
+author: "Elsen Soh, Gloria Phua, Jaxsen Tee"
 ---
 
 ## **1. Title**Visual Analytics for Oceanus – Investigating Accusations between FILAH and TROUT
