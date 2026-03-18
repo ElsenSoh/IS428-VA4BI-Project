@@ -100,24 +100,24 @@ The visualizations will help reveal patterns in meetings, travel, and interactio
 
 ## **10. Project Timeline**
 
-+---------+------------------------------------------------------------------------+
-| Week    | Task                                                                   |
-+---------+------------------------------------------------------------------------+
-| Week 10 | 1\. Project Proposal Finalization & Submission (Elsen)                 |
-|         |                                                                        |
-|         | 2\. Data Preprocessing (Gloria - 1, 2 dataset and Jaxsen 3, 4 dataset) |
-+---------+------------------------------------------------------------------------+
-| Week 11 | 1\. Dataset Comparison Analysis                                        |
-|         |                                                                        |
-|         | 2\. Activity Analysis                                                  |
-+---------+------------------------------------------------------------------------+
-| Week 12 | 1\. Comparative Analysis                                               |
-|         |                                                                        |
-|         | 2\. Compile Dashboards into Story                                      |
-+---------+------------------------------------------------------------------------+
-| Week 13 | 1\. Website Creation                                                   |
-|         |                                                                        |
-|         | 2\. Poster Creation & Submission                                       |
-+---------+------------------------------------------------------------------------+
-| Week 14 | 1\. Improvements on Deliverables after Presentation                    |
-+---------+------------------------------------------------------------------------+
++---------+-----------------------------------------------------+
+| Week    | Task                                                |
++---------+-----------------------------------------------------+
+| Week 10 | 1\. Project Proposal Finalization & Submission      |
+|         |                                                     |
+|         | 2\. Data Preprocessing                              |
++---------+-----------------------------------------------------+
+| Week 11 | 1\. Dataset Comparison Analysis                     |
+|         |                                                     |
+|         | 2\. Activity Analysis                               |
++---------+-----------------------------------------------------+
+| Week 12 | 1\. Comparative Analysis                            |
+|         |                                                     |
+|         | 2\. Compile Dashboards into Story                   |
++---------+-----------------------------------------------------+
+| Week 13 | 1\. Website Creation                                |
+|         |                                                     |
+|         | 2\. Poster Creation & Submission                    |
++---------+-----------------------------------------------------+
+| Week 14 | 1\. Improvements on Deliverables after Presentation |
++---------+-----------------------------------------------------+
