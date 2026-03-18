@@ -118,8 +118,23 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#titlevisual-analytics-for-oceanus-investigating-accusations-between-filah-and-trout" id="toc-titlevisual-analytics-for-oceanus-investigating-accusations-between-filah-and-trout" class="nav-link active" data-scroll-target="#titlevisual-analytics-for-oceanus-investigating-accusations-between-filah-and-trout"><strong>1. Title</strong>Visual Analytics for Oceanus – Investigating Accusations between FILAH and TROUT</a></li>
+  <li><a href="#introduction-background" id="toc-introduction-background" class="nav-link" data-scroll-target="#introduction-background"><strong>2. Introduction / Background</strong></a></li>
+  <li><a href="#problem-statement" id="toc-problem-statement" class="nav-link" data-scroll-target="#problem-statement"><strong>3. Problem Statement</strong></a></li>
+  <li><a href="#research-questions-objectives" id="toc-research-questions-objectives" class="nav-link" data-scroll-target="#research-questions-objectives"><strong>4. Research Questions / Objectives</strong></a></li>
+  <li><a href="#dataset-description" id="toc-dataset-description" class="nav-link" data-scroll-target="#dataset-description"><strong>5. Dataset Description</strong></a></li>
+  <li><a href="#proposed-methodology-approach" id="toc-proposed-methodology-approach" class="nav-link" data-scroll-target="#proposed-methodology-approach"><strong>6. Proposed Methodology / Approach</strong></a></li>
+  <li><a href="#proposed-visualizations" id="toc-proposed-visualizations" class="nav-link" data-scroll-target="#proposed-visualizations"><strong>7. Proposed Visualizations</strong></a></li>
+  <li><a href="#tools-and-technologies" id="toc-tools-and-technologies" class="nav-link" data-scroll-target="#tools-and-technologies"><strong>8. Tools and Technologies</strong></a></li>
+  <li><a href="#expected-outcomes" id="toc-expected-outcomes" class="nav-link" data-scroll-target="#expected-outcomes"><strong>9. Expected Outcomes</strong></a></li>
+  <li><a href="#project-timeline" id="toc-project-timeline" class="nav-link" data-scroll-target="#project-timeline"><strong>10. Project Timeline</strong></a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -149,11 +164,128 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>Overview</p>
-<p>Mini Case</p>
-<p>Methodology</p>
+<section id="titlevisual-analytics-for-oceanus-investigating-accusations-between-filah-and-trout" class="level2">
+<h2 class="anchored" data-anchor-id="titlevisual-analytics-for-oceanus-investigating-accusations-between-filah-and-trout"><strong>1. Title</strong>Visual Analytics for Oceanus – Investigating Accusations between FILAH and TROUT</h2>
+</section>
+<section id="introduction-background" class="level2">
+<h2 class="anchored" data-anchor-id="introduction-background"><strong>2. Introduction / Background</strong></h2>
+<p>Oceanus has historically relied on fishing as its main economic activity. However, tourism has grown rapidly in recent years, creating tensions between traditional fishing communities and new tourism industries. To oversee these economic changes, the government formed the Commission on Overseeing the Economic Future of Oceanus (COOTEFOO), which advises policymakers on economic development.</p>
+<p>Recently, COOTEFOO has been accused of bias by two opposing groups. FILAH (Fishing is Living and Heritage) claims that the commission favors tourism and ignores the fishing industry. Meanwhile, TROUT (Tourism Raises OceanUs Together) argues that COOTEFOO protects fishing interests and fails to support tourism development.</p>
+<p>A journalist from the Haacklee Herald, Edwina Darling Moray, obtained datasets used by both groups, along with additional records such as meeting minutes and travel logs of COOTEFOO members. These datasets were structured as a knowledge graph, showing relationships between people, meetings, and locations.</p>
+<p>This project applies visual analytics using Tableau to explore these datasets and determine whether the accusations made by FILAH and TROUT are supported by the available evidence.</p>
+</section>
+<section id="problem-statement" class="level2">
+<h2 class="anchored" data-anchor-id="problem-statement"><strong>3. Problem Statement</strong></h2>
+<p>Different groups are drawing conclusions about COOTEFOO’s behavior using partial and selective datasets. Because these datasets capture only parts of the committee’s meetings, travel, and interactions, they may present different or misleading narratives about the commission’s activities. The challenge is to visually analyze and compare these datasets to uncover the actual patterns of COOTEFOO’s activities and understand how incomplete data can influence interpretations.</p>
+</section>
+<section id="research-questions-objectives" class="level2">
+<h2 class="anchored" data-anchor-id="research-questions-objectives"><strong>4. Research Questions / Objectives</strong></h2>
+<p>This project aims to answer the following questions:</p>
+<ul>
+<li><p>RQ1: Does the FILAH and TROUT datasets provide evidence that supports their accusations about COOTEFOO’s behavior? Is there evidence of bias in the COOTEFOO member actions in either dataset?</p></li>
+<li><p>RQ2: When the FILAH and TROUT datasets are combined with the journalist dataset, what patterns emerge in how COOTEFOO members spend their time? Is the committee as a whole biased?</p></li>
+<li><p>RQ3: After comparing and contrasting the conclusions derived from the TROUT and FILAH datasets with behaviors in the entire dataset, are the allegations of TROUT strengthened, weakened or unchanged?</p></li>
+<li><p>RQ4: Which COOTEFOO members appear most affected by sampling bias when analyzing the partial datasets?</p></li>
+</ul>
+</section>
+<section id="dataset-description" class="level2">
+<h2 class="anchored" data-anchor-id="dataset-description"><strong>5. Dataset Description</strong></h2>
+<p>This project uses four datasets related to the activities of COOTEFOO members.</p>
+<ol type="1">
+<li><p>FILAH dataset: A subset of records collected by the fishing advocacy group FILAH. The data focuses on activities that may suggest bias toward tourism.</p></li>
+<li><p>TROUT dataset: A subset of records collected by the tourism advocacy group TROUT. The data highlights activities that may suggest bias toward the fishing industry.</p></li>
+<li><p>Journalist dataset: A more complete dataset obtained by the journalist Edwina Darling Moray. It combines records from multiple sources and provides a broader view of COOTEFOO members’ activities.</p></li>
+<li><p>Road Map dataset: This dataset contains the geographic map of Oceanus, including locations and the connections between them. It provides spatial context for travel records and helps show where COOTEFOO members travel.</p></li>
+</ol>
+<p>All datasets are stored in JSON format and structured as a knowledge graph, where nodes represent entities (such as people, meetings, and locations) and edges represent relationships between them.<br>
+</p>
+</section>
+<section id="proposed-methodology-approach" class="level2">
+<h2 class="anchored" data-anchor-id="proposed-methodology-approach"><strong>6. Proposed Methodology / Approach</strong></h2>
+<p>The analysis will include the following steps:</p>
+<ol type="1">
+<li><p>Data preprocessing: The JSON datasets will be processed and converted into structured tables suitable for visualization. Entities such as members, meetings, travel events, and locations will be extracted and organized.</p></li>
+<li><p>Dataset Comparison: The FILAH, TROUT, and journalist datasets will be compared to understand differences in coverage and identify missing records.</p></li>
+<li><p>Activity Analysis: Meeting participation, travel patterns, and interactions between members and locations will be analyzed to understand how COOTEFOO members allocate their time.</p></li>
+<li><p>Comparative Analysis: Patterns observed in the FILAH and TROUT datasets will be compared with the full dataset to determine how incomplete data influences conclusions.</p></li>
+</ol>
+</section>
+<section id="proposed-visualizations" class="level2">
+<h2 class="anchored" data-anchor-id="proposed-visualizations"><strong>7. Proposed Visualizations</strong></h2>
+<p>The project will create several visualizations using Tableau to support storytelling.</p>
+<ul>
+<li><p>Network Graph<br>
+Shows relationships between COOTEFOO members, meetings, and locations to reveal interaction patterns and key actors.</p></li>
+<li><p>Timeline Visualization<br>
+Displays meetings and travel events over time, helping identify periods of increased activity or engagement.</p></li>
+<li><p>Geographic Map<br>
+Uses the road map dataset to visualize travel patterns and locations visited by COOTEFOO members.</p></li>
+<li><p>Dataset Comparison Dashboard<br>
+Allows comparison of patterns observed in the FILAH dataset, TROUT dataset, and the complete dataset.</p></li>
+<li><p>Activity Distribution Charts<br>
+Shows how members allocate their time across meetings, locations, and activities.</p></li>
+</ul>
+<p>Together, these visualizations help reveal patterns in COOTEFOO’s behavior and highlight differences between the datasets.</p>
+</section>
+<section id="tools-and-technologies" class="level2">
+<h2 class="anchored" data-anchor-id="tools-and-technologies"><strong>8. Tools and Technologies</strong></h2>
+<p>The project will use the following tools:</p>
+<ul>
+<li>Tableau for data visualization and storytelling dashboard</li>
+</ul>
+<!-- -->
+<ul>
+<li><p>Python (Pandas) for data cleaning and transformation</p></li>
+<li><p>GitHub for version control and collaboration</p></li>
+<li><p>Vercel for hosting the project website</p></li>
+</ul>
+</section>
+<section id="expected-outcomes" class="level2">
+<h2 class="anchored" data-anchor-id="expected-outcomes"><strong>9. Expected Outcomes</strong></h2>
+<p>The project aims to determine whether the accusations made by FILAH and TROUT are supported by the data they present. By comparing the partial datasets with the full dataset, the analysis will show how incomplete data can influence interpretations of COOTEFOO’s activities.</p>
+<p>The visualizations will help reveal patterns in meetings, travel, and interactions, providing a clearer understanding of how COOTEFOO members actually spend their time.</p>
+</section>
+<section id="project-timeline" class="level2">
+<h2 class="anchored" data-anchor-id="project-timeline"><strong>10. Project Timeline</strong></h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 12%">
+<col style="width: 87%">
+</colgroup>
+<tbody>
+<tr class="odd">
+<td>Week</td>
+<td>Task</td>
+</tr>
+<tr class="even">
+<td>Week 10</td>
+<td><p>1. Project Proposal Finalization &amp; Submission (Elsen)</p>
+<p>2. Data Preprocessing (Gloria - 1, 2 dataset and Jaxsen 3, 4 dataset)</p></td>
+</tr>
+<tr class="odd">
+<td>Week 11</td>
+<td><p>1. Dataset Comparison Analysis</p>
+<p>2. Activity Analysis</p></td>
+</tr>
+<tr class="even">
+<td>Week 12</td>
+<td><p>1. Comparative Analysis</p>
+<p>2. Compile Dashboards into Story</p></td>
+</tr>
+<tr class="odd">
+<td>Week 13</td>
+<td><p>1. Website Creation</p>
+<p>2. Poster Creation &amp; Submission</p></td>
+</tr>
+<tr class="even">
+<td>Week 14</td>
+<td>1. Improvements on Deliverables after Presentation</td>
+</tr>
+</tbody>
+</table>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

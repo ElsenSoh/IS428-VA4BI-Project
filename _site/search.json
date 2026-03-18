@@ -1,33 +1,5 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "IS428-VA4BI-Project",
-    "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 1\n\n[1] 2"
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "About this site\n\n1 + 1\n\n[1] 2"
-  },
-  {
-    "objectID": "Introduction Page.html",
-    "href": "Introduction Page.html",
-    "title": "Introduction",
-    "section": "",
-    "text": "Overview\nMini Case\nMethodology"
-  },
-  {
-    "objectID": "introduction.html",
-    "href": "introduction.html",
-    "title": "Introduction",
-    "section": "",
-    "text": "Overview\nMini Case\nMethodology"
-  },
-  {
     "objectID": "introduction.html#introduction-background",
     "href": "introduction.html#introduction-background",
     "title": "Introduction",
@@ -89,5 +61,19 @@
     "title": "Introduction",
     "section": "10. Project Timeline",
     "text": "10. Project Timeline\n\n\n\n\n\n\n\nWeek\nTask\n\n\nWeek 10\n1. Project Proposal Finalization & Submission (Elsen)\n2. Data Preprocessing (Gloria - 1, 2 dataset and Jaxsen 3, 4 dataset)\n\n\nWeek 11\n1. Dataset Comparison Analysis\n2. Activity Analysis\n\n\nWeek 12\n1. Comparative Analysis\n2. Compile Dashboards into Story\n\n\nWeek 13\n1. Website Creation\n2. Poster Creation & Submission\n\n\nWeek 14\n1. Improvements on Deliverables after Presentation"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "IS428-VA4BI-Project",
+    "section": "",
+    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 1\n\n[1] 2"
   }
 ]
