@@ -46,49 +46,49 @@
     "href": "index.html",
     "title": "Project Overview",
     "section": "",
-    "text": "The Hidden Biases Shaping Oceanus’s Economic Future\nA visual analytics investigation into whether partial data shaped competing accusations against COOTEFOO\n\nOceanus is undergoing a major economic transition. While fishing has long been central to the island’s identity and livelihood, tourism has grown rapidly in recent years. To guide this shift, the Commission on Overseeing the Economic Future of Oceanus (COOTEFOO) was formed to advise policymakers on the island’s development priorities.\n\nHowever, COOTEFOO’s neutrality has come under question. Two opposing advocacy groups — FILAH and TROUT — each accuse the commission of bias, but in completely different directions. FILAH argues that COOTEFOO favors tourism and neglects the fishing industry, while TROUT claims that the commission protects fishing interests and fails to adequately support tourism.\n\nThis project examines those competing accusations through visual analytics. By comparing the partial datasets collected by FILAH and TROUT against a broader journalist dataset, we investigate whether the claims hold up when viewed in fuller context.\n\n\n\n\n\n\nNoteWhy this project matters\n\n\n\nThis challenge is not only about whether COOTEFOO is biased. It is also about how incomplete or selective data can produce convincing, but very different, stories. Our analysis focuses on how missing context, uneven coverage, and sampling bias can shape interpretation."
+    "text": "An investigation into whether partial and selective data shaped accusations against COOTEFOO\nOceanus is undergoing a major economic transition. While fishing has long been central to the island’s identity and livelihood, tourism has expanded rapidly in recent years. As the island debates its future, COOTEFOO has come under pressure from two opposing groups making very different claims about its behaviour.\nOur project examines whether those accusations hold up when partial advocacy datasets are compared against a broader journalist dataset. Through visual analytics, we reconstruct a fuller picture of COOTEFOO’s activities and explore how incomplete evidence can shape powerful, but conflicting, narratives.\nExplore Methodology View Results & Analysis"
   },
   {
-    "objectID": "index.html#project-overview",
-    "href": "index.html#project-overview",
+    "objectID": "index.html#the-hidden-biases-shaping-oceanuss-economic-future",
+    "href": "index.html#the-hidden-biases-shaping-oceanuss-economic-future",
     "title": "Project Overview",
     "section": "",
-    "text": "The Hidden Biases Shaping Oceanus’s Economic Future\nA visual analytics investigation into whether partial data shaped competing accusations against COOTEFOO\n\nOceanus is undergoing a major economic transition. While fishing has long been central to the island’s identity and livelihood, tourism has grown rapidly in recent years. To guide this shift, the Commission on Overseeing the Economic Future of Oceanus (COOTEFOO) was formed to advise policymakers on the island’s development priorities.\n\nHowever, COOTEFOO’s neutrality has come under question. Two opposing advocacy groups — FILAH and TROUT — each accuse the commission of bias, but in completely different directions. FILAH argues that COOTEFOO favors tourism and neglects the fishing industry, while TROUT claims that the commission protects fishing interests and fails to adequately support tourism.\n\nThis project examines those competing accusations through visual analytics. By comparing the partial datasets collected by FILAH and TROUT against a broader journalist dataset, we investigate whether the claims hold up when viewed in fuller context.\n\n\n\n\n\n\nNoteWhy this project matters\n\n\n\nThis challenge is not only about whether COOTEFOO is biased. It is also about how incomplete or selective data can produce convincing, but very different, stories. Our analysis focuses on how missing context, uneven coverage, and sampling bias can shape interpretation."
+    "text": "An investigation into whether partial and selective data shaped accusations against COOTEFOO\nOceanus is undergoing a major economic transition. While fishing has long been central to the island’s identity and livelihood, tourism has expanded rapidly in recent years. As the island debates its future, COOTEFOO has come under pressure from two opposing groups making very different claims about its behaviour.\nOur project examines whether those accusations hold up when partial advocacy datasets are compared against a broader journalist dataset. Through visual analytics, we reconstruct a fuller picture of COOTEFOO’s activities and explore how incomplete evidence can shape powerful, but conflicting, narratives.\nExplore Methodology View Results & Analysis"
   },
   {
     "objectID": "index.html#the-problem",
     "href": "index.html#the-problem",
     "title": "Project Overview",
-    "section": "2. The Problem",
-    "text": "2. The Problem\nBoth FILAH and TROUT rely on partial records of COOTEFOO members’ meetings, movement, and activities. Because neither side sees the full picture, each dataset highlights certain patterns while leaving others out. As a result, the same commission can appear tourism-leaning in one dataset and fishing-leaning in another.\n\nOur task is to go beyond the accusations and reconstruct a more balanced view of COOTEFOO’s behaviour. Rather than taking either narrative at face value, we compare the selective datasets with the journalist’s broader dataset to understand what changes when more complete evidence is introduced."
+    "section": "The Problem",
+    "text": "The Problem\nBoth FILAH and TROUT rely on partial records of COOTEFOO members’ meetings, movement, and activities. Because neither side sees the full picture, each dataset highlights certain patterns while leaving others out. As a result, the same commission can appear tourism-leaning in one dataset and fishing-leaning in another.\n\nOur task is to go beyond the accusations and reconstruct a more balanced view of COOTEFOO’s behaviour. Rather than taking either narrative at face value, we compare the selective datasets with the journalist’s broader dataset to understand what changes when more complete evidence is introduced."
   },
   {
-    "objectID": "index.html#datasets",
-    "href": "index.html#datasets",
+    "objectID": "index.html#datasets-used",
+    "href": "index.html#datasets-used",
     "title": "Project Overview",
-    "section": "3. Datasets",
-    "text": "3. Datasets\nWe work with four datasets, each offering a different perspective on COOTEFOO’s activities.\n\nFILAH Dataset\nA partial dataset collected from the fishing advocacy perspective. It focuses on records that may suggest bias toward tourism or neglect of fishing-related interests.\n\n\nTROUT Dataset\nA partial dataset collected from the tourism advocacy perspective. It highlights records that may suggest bias toward fishing interests or limited support for tourism.\n\n\nJournalist Dataset\nA broader dataset compiled by journalist Edwina Darling Moray. This provides a more complete view of COOTEFOO members’ activities and serves as the main benchmark for comparison.\n\n\nRoadmap Dataset\nA supporting spatial dataset that provides geographic context for movement, routes, and location-based activity across Oceanus."
+    "section": "Datasets Used",
+    "text": "Datasets Used\nTogether, these four datasets allow us to compare competing narratives against a broader reconstruction of COOTEFOO’s activities.\n\n\nFILAH\nPartial dataset collected from the fishing advocacy perspective\n\n\nTROUT\nPartial dataset collected from the tourism advocacy perspective\n\n\nJournalist\nBroader dataset compiled by journalist Edwina Darling Moray\n\n\nRoad Map\nSpatial dataset that provides geographic context across Oceanus"
   },
   {
-    "objectID": "index.html#what-you-will-find-on-this-website",
-    "href": "index.html#what-you-will-find-on-this-website",
+    "objectID": "index.html#explore-the-site",
+    "href": "index.html#explore-the-site",
     "title": "Project Overview",
-    "section": "4. What You Will Find On This Website",
-    "text": "4. What You Will Find On This Website\nThis website is organised into four main sections:\n\n\nMethodology\nHow the raw JSON-based records were cleaned, structured, and transformed for analysis.\n\n\nResults\nThe main findings from our comparison of FILAH, TROUT, and the journalist dataset.\n\n\nAbout Us\nAn introduction to the team behind the project and our respective roles."
+    "section": "Explore the Site",
+    "text": "Explore the Site\nThe project website is organised into three main sections. Each page focuses on a different part of the story, from how the data was prepared to what the final analysis reveals.\n\n\nMethodology\nSee how the raw JSON records were cleaned, structured, and transformed into visuals for analysis.\n\n\nResults & Analysis\nExplore the main findings from our comparison of FILAH, TROUT, and the journalist dataset.\n\n\nAbout Us\nMeet the team behind the project and learn more about our roles and contributions."
   },
   {
     "objectID": "index.html#our-analytical-focus",
     "href": "index.html#our-analytical-focus",
     "title": "Project Overview",
-    "section": "5. Our Analytical Focus",
-    "text": "5. Our Analytical Focus\nAcross the site, our analysis centres on a few key questions:\n\n- Do FILAH’s and TROUT’s accusations actually hold up based on the evidence they use?\n- What changes when those claims are compared against the fuller journalist dataset?\n- Does COOTEFOO, as a whole, appear biased toward tourism or fishing?\n- Which members are most misrepresented when only partial data is used?"
+    "section": "Our Analytical Focus",
+    "text": "Our Analytical Focus\nAcross the site, our analysis centres on a few key questions:\n\n- Do FILAH’s and TROUT’s accusations actually hold up based on the evidence they use?\n- What changes when those claims are compared against the fuller journalist dataset?\n- Does COOTEFOO, as a whole, appear biased toward tourism or fishing?\n- Which members are most misrepresented when only partial data is used?"
   },
   {
     "objectID": "index.html#closing-note",
     "href": "index.html#closing-note",
     "title": "Project Overview",
-    "section": "6. Closing Note",
-    "text": "6. Closing Note\nAt its core, this project is about the danger of drawing strong conclusions from incomplete evidence. Through visual analytics, we aim to show how different narratives can emerge from selective data, and how a more complete view can challenge, weaken, or sometimes support those narratives.\nExplore the Methodology View Results & Analysis"
+    "section": "Closing Note",
+    "text": "Closing Note\nAt its core, this project is about the danger of drawing strong conclusions from incomplete evidence. Through visual analytics, we aim to show how different narratives can emerge from selective data, and how a more complete view can challenge, weaken, or sometimes support those narratives.\nExplore the Methodology View Results & Analysis"
   },
   {
     "objectID": "methodology.html",
