@@ -2,22 +2,26 @@ project:
   type: website
 
 website:
-  title: "IS428-VA4BI-Project"
+  title: "IS428-G2-Group 4"
   navbar:
     left:
-      - href: introduction.html
-        text: Introduction  
-    right: 
       - href: index.qmd
-        text: Home
-      - about.qmd
+        text: Project Overview
+      - href: methodology.qmd
+        text: Methodology
+      - href: results-analysis.qmd
+        text: Results & Analysis
+      - href: lessons-learnt.qmd
+        text: Lessons Learnt
+      - href: about-us.qmd
+        text: About Us
+
 format:
   html:
-    theme:          # (website) quatro.org html themes
+    theme:
       - flatly
       - brand
     css: styles.css
     toc: true
 
 editor: visual
-

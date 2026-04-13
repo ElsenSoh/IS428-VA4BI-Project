@@ -1,0 +1,14 @@
+---
+title: "About Us"
+author: "Group 4"
+---
+
+\## Team Members\
+\
+- Elsen Soh\
+- Gloria Phua\
+- Jaxsen Tee\
+\
+\## Roles and Contributions\
+\
+Briefly describe what each team member contributed to the project.

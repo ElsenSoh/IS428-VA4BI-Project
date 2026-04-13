@@ -1,0 +1,16 @@
+---
+title: "Lessons Learnt"
+author: "Elsen Soh, Gloria Phua, Jaxsen Tee"
+---
+
+\## Challenges Faced\
+\
+Describe the difficulties encountered during the project.\
+\
+\## Skills Gained\
+\
+Explain what your team learnt from the project.\
+\
+\## Future Improvements\
+\
+Mention what you would improve if you had more time or more advanced tools.

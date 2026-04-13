@@ -1,1 +1,10 @@
 /* css styles */
+.clean-link a {
+  color: inherit !important;
+  text-decoration: none !important;
+}
+
+.clean-link a:hover {
+  color: #2c3e50 !important;
+  text-decoration: underline !important;
+}

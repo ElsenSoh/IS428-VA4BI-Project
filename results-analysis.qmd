@@ -1,0 +1,16 @@
+---
+title: "Results & Analysis"
+author: "Elsen Soh, Gloria Phua, Jaxsen Tee"
+---
+
+## Key Findings
+
+Summarise the most important findings from your analysis.
+
+## Evidence from Visualisations
+
+Explain what your dashboards and charts show.
+
+## Interpretation
+
+Discuss what the findings suggest about the accusations between FILAH and TROUT.

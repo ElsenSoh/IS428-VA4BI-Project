@@ -1,0 +1,16 @@
+---
+title: "Methodology"
+author: "Elsen Soh, Gloria Phua, Jaxsen Tee"
+---
+
+\## Data Sources\
+\
+Describe the datasets used in this project.\
+\
+\## Analytical Approach\
+\
+Explain how your team used visual analytics to investigate the case.\
+\
+\## Tools and Techniques\
+\
+State the tools used, such as Tableau, Quarto, GitHub, and Vercel.

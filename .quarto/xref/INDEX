@@ -10,5 +10,17 @@
   },
   "introduction.qmd": {
     "introduction.html": "e0d43f8d"
+  },
+  "about-us.qmd": {
+    "about-us.html": "d3bbc258"
+  },
+  "lessons-learnt.qmd": {
+    "lessons-learnt.html": "dc687621"
+  },
+  "methodology.qmd": {
+    "methodology.html": "fd72df15"
+  },
+  "results-analysis.qmd": {
+    "results-analysis.html": "6049299a"
   }
 }

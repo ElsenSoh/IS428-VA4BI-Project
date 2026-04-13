@@ -1,3 +1,85 @@
 ---
-title: "IS428-VA4BI-Project"
+title: "Project Overview"
+author: "Elsen Soh, Gloria Phua, Jaxsen Tee"
+format:
+  html:
+    css: styles.css
+page-layout: full
 ---
+
+## 1. Project Overview
+
+**The Hidden Biases Shaping Oceanus’s Economic Future**
+
+A visual analytics investigation into whether partial data shaped competing accusations against COOTEFOO\
+\
+Oceanus is undergoing a major economic transition. While fishing has long been central to the island’s identity and livelihood, tourism has grown rapidly in recent years. To guide this shift, the Commission on Overseeing the Economic Future of Oceanus (COOTEFOO) was formed to advise policymakers on the island’s development priorities.\
+\
+However, COOTEFOO’s neutrality has come under question. Two opposing advocacy groups — FILAH and TROUT — each accuse the commission of bias, but in completely different directions. FILAH argues that COOTEFOO favors tourism and neglects the fishing industry, while TROUT claims that the commission protects fishing interests and fails to adequately support tourism.\
+\
+This project examines those competing accusations through visual analytics. By comparing the partial datasets collected by FILAH and TROUT against a broader journalist dataset, we investigate whether the claims hold up when viewed in fuller context.
+
+::: callout-note
+## Why this project matters
+
+This challenge is not only about whether COOTEFOO is biased. It is also about how incomplete or selective data can produce convincing, but very different, stories. Our analysis focuses on how missing context, uneven coverage, and sampling bias can shape interpretation.
+:::
+
+## 2. The Problem
+
+Both FILAH and TROUT rely on partial records of COOTEFOO members’ meetings, movement, and activities. Because neither side sees the full picture, each dataset highlights certain patterns while leaving others out. As a result, the same commission can appear tourism-leaning in one dataset and fishing-leaning in another.\
+\
+Our task is to go beyond the accusations and reconstruct a more balanced view of COOTEFOO’s behaviour. Rather than taking either narrative at face value, we compare the selective datasets with the journalist’s broader dataset to understand what changes when more complete evidence is introduced.
+
+## 3. Datasets
+
+We work with four datasets, each offering a different perspective on COOTEFOO’s activities.
+
+### FILAH Dataset
+
+A partial dataset collected from the fishing advocacy perspective. It focuses on records that may suggest bias toward tourism or neglect of fishing-related interests.
+
+### TROUT Dataset
+
+A partial dataset collected from the tourism advocacy perspective. It highlights records that may suggest bias toward fishing interests or limited support for tourism.
+
+### Journalist Dataset
+
+A broader dataset compiled by journalist Edwina Darling Moray. This provides a more complete view of COOTEFOO members’ activities and serves as the main benchmark for comparison.
+
+### Roadmap Dataset
+
+A supporting spatial dataset that provides geographic context for movement, routes, and location-based activity across Oceanus.
+
+## 4. What You Will Find On This Website
+
+This website is organised into four main sections:
+
+::: clean-link
+### [**Methodology**](methodology.qmd)
+
+How the raw JSON-based records were cleaned, structured, and transformed for analysis.
+
+### [**Results**](results-analysis.qmd)
+
+The main findings from our comparison of FILAH, TROUT, and the journalist dataset.
+
+### [**About Us**](about-us.qmd)
+
+An introduction to the team behind the project and our respective roles.
+:::
+
+## 5. Our Analytical Focus
+
+Across the site, our analysis centres on a few key questions:\
+\
+- Do FILAH’s and TROUT’s accusations actually hold up based on the evidence they use?\
+- What changes when those claims are compared against the fuller journalist dataset?\
+- Does COOTEFOO, as a whole, appear biased toward tourism or fishing?\
+- Which members are most misrepresented when only partial data is used?
+
+## 6. Closing Note
+
+At its core, this project is about the danger of drawing strong conclusions from incomplete evidence. Through visual analytics, we aim to show how different narratives can emerge from selective data, and how a more complete view can challenge, weaken, or sometimes support those narratives.
+
+[Explore the Methodology](methodology.qmd){.btn .btn-primary} [View Results & Analysis](results-analysis.qmd){.btn .btn-outline-primary}
