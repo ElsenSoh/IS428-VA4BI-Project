@@ -1,5 +1,5 @@
 ---
-title: "Introduction"
+title: "Introduction (MC2)"
 author: "Elsen Soh, Gloria Phua, Jaxsen Tee"
 ---
 

@@ -2,63 +2,63 @@
   {
     "objectID": "introduction.html#introduction-background",
     "href": "introduction.html#introduction-background",
-    "title": "Introduction",
+    "title": "Introduction (MC2)",
     "section": "2. Introduction / Background",
     "text": "2. Introduction / Background\nOceanus has historically relied on fishing as its main economic activity. However, tourism has grown rapidly in recent years, creating tensions between traditional fishing communities and new tourism industries. To oversee these economic changes, the government formed the Commission on Overseeing the Economic Future of Oceanus (COOTEFOO), which advises policymakers on economic development.\nRecently, COOTEFOO has been accused of bias by two opposing groups. FILAH (Fishing is Living and Heritage) claims that the commission favors tourism and ignores the fishing industry. Meanwhile, TROUT (Tourism Raises OceanUs Together) argues that COOTEFOO protects fishing interests and fails to support tourism development.\nA journalist from the Haacklee Herald, Edwina Darling Moray, obtained datasets used by both groups, along with additional records such as meeting minutes and travel logs of COOTEFOO members. These datasets were structured as a knowledge graph, showing relationships between people, meetings, and locations.\nThis project applies visual analytics using Tableau to explore these datasets and determine whether the accusations made by FILAH and TROUT are supported by the available evidence."
   },
   {
     "objectID": "introduction.html#problem-statement",
     "href": "introduction.html#problem-statement",
-    "title": "Introduction",
+    "title": "Introduction (MC2)",
     "section": "3. Problem Statement",
     "text": "3. Problem Statement\nDifferent groups are drawing conclusions about COOTEFOO’s behavior using partial and selective datasets. Because these datasets capture only parts of the committee’s meetings, travel, and interactions, they may present different or misleading narratives about the commission’s activities. The challenge is to visually analyze and compare these datasets to uncover the actual patterns of COOTEFOO’s activities and understand how incomplete data can influence interpretations."
   },
   {
     "objectID": "introduction.html#research-questions-objectives",
     "href": "introduction.html#research-questions-objectives",
-    "title": "Introduction",
+    "title": "Introduction (MC2)",
     "section": "4. Research Questions / Objectives",
     "text": "4. Research Questions / Objectives\nThis project aims to answer the following questions:\n\nRQ1: Does the FILAH and TROUT datasets provide evidence that supports their accusations about COOTEFOO’s behavior? Is there evidence of bias in the COOTEFOO member actions in either dataset?\nRQ2: When the FILAH and TROUT datasets are combined with the journalist dataset, what patterns emerge in how COOTEFOO members spend their time? Is the committee as a whole biased?\nRQ3: After comparing and contrasting the conclusions derived from the TROUT and FILAH datasets with behaviors in the entire dataset, are the allegations of TROUT strengthened, weakened or unchanged?\nRQ4: Which COOTEFOO members appear most affected by sampling bias when analyzing the partial datasets?"
   },
   {
     "objectID": "introduction.html#dataset-description",
     "href": "introduction.html#dataset-description",
-    "title": "Introduction",
+    "title": "Introduction (MC2)",
     "section": "5. Dataset Description",
     "text": "5. Dataset Description\nThis project uses four datasets related to the activities of COOTEFOO members.\n\nFILAH dataset: A subset of records collected by the fishing advocacy group FILAH. The data focuses on activities that may suggest bias toward tourism.\nTROUT dataset: A subset of records collected by the tourism advocacy group TROUT. The data highlights activities that may suggest bias toward the fishing industry.\nJournalist dataset: A more complete dataset obtained by the journalist Edwina Darling Moray. It combines records from multiple sources and provides a broader view of COOTEFOO members’ activities.\nRoad Map dataset: This dataset contains the geographic map of Oceanus, including locations and the connections between them. It provides spatial context for travel records and helps show where COOTEFOO members travel.\n\nAll datasets are stored in JSON format and structured as a knowledge graph, where nodes represent entities (such as people, meetings, and locations) and edges represent relationships between them."
   },
   {
     "objectID": "introduction.html#proposed-methodology-approach",
     "href": "introduction.html#proposed-methodology-approach",
-    "title": "Introduction",
+    "title": "Introduction (MC2)",
     "section": "6. Proposed Methodology / Approach",
     "text": "6. Proposed Methodology / Approach\nThe analysis will include the following steps:\n\nData preprocessing: The JSON datasets will be processed and converted into structured tables suitable for visualization. Entities such as members, meetings, travel events, and locations will be extracted and organized.\nDataset Comparison: The FILAH, TROUT, and journalist datasets will be compared to understand differences in coverage and identify missing records.\nActivity Analysis: Meeting participation, travel patterns, and interactions between members and locations will be analyzed to understand how COOTEFOO members allocate their time.\nComparative Analysis: Patterns observed in the FILAH and TROUT datasets will be compared with the full dataset to determine how incomplete data influences conclusions."
   },
   {
     "objectID": "introduction.html#proposed-visualizations",
     "href": "introduction.html#proposed-visualizations",
-    "title": "Introduction",
+    "title": "Introduction (MC2)",
     "section": "7. Proposed Visualizations",
     "text": "7. Proposed Visualizations\nThe project will create several visualizations using Tableau to support storytelling.\n\nNetwork Graph\nShows relationships between COOTEFOO members, meetings, and locations to reveal interaction patterns and key actors.\nTimeline Visualization\nDisplays meetings and travel events over time, helping identify periods of increased activity or engagement.\nGeographic Map\nUses the road map dataset to visualize travel patterns and locations visited by COOTEFOO members.\nDataset Comparison Dashboard\nAllows comparison of patterns observed in the FILAH dataset, TROUT dataset, and the complete dataset.\nActivity Distribution Charts\nShows how members allocate their time across meetings, locations, and activities.\n\nTogether, these visualizations help reveal patterns in COOTEFOO’s behavior and highlight differences between the datasets."
   },
   {
     "objectID": "introduction.html#tools-and-technologies",
     "href": "introduction.html#tools-and-technologies",
-    "title": "Introduction",
+    "title": "Introduction (MC2)",
     "section": "8. Tools and Technologies",
     "text": "8. Tools and Technologies\nThe project will use the following tools:\n\nTableau for data visualization and storytelling dashboard\n\n\n\nPython (Pandas) for data cleaning and transformation\nGitHub for version control and collaboration\nVercel for hosting the project website"
   },
   {
     "objectID": "introduction.html#expected-outcomes",
     "href": "introduction.html#expected-outcomes",
-    "title": "Introduction",
+    "title": "Introduction (MC2)",
     "section": "9. Expected Outcomes",
     "text": "9. Expected Outcomes\nThe project aims to determine whether the accusations made by FILAH and TROUT are supported by the data they present. By comparing the partial datasets with the full dataset, the analysis will show how incomplete data can influence interpretations of COOTEFOO’s activities.\nThe visualizations will help reveal patterns in meetings, travel, and interactions, providing a clearer understanding of how COOTEFOO members actually spend their time."
   },
   {
     "objectID": "introduction.html#project-timeline",
     "href": "introduction.html#project-timeline",
-    "title": "Introduction",
+    "title": "Introduction (MC2)",
     "section": "10. Project Timeline",
     "text": "10. Project Timeline\n\n\n\n\n\n\n\nWeek\nTask\n\n\nWeek 10\n1. Project Proposal Finalization & Submission\n2. Data Preprocessing\n\n\nWeek 11\n1. Dataset Comparison Analysis\n2. Activity Analysis\n\n\nWeek 12\n1. Comparative Analysis\n2. Compile Dashboards into Story\n\n\nWeek 13\n1. Website Creation\n2. Poster Creation & Submission\n\n\nWeek 14\n1. Improvements on Deliverables after Presentation"
   },
