@@ -155,3 +155,34 @@
   margin-bottom: 0.6rem;
   line-height: 1.7;
 }
+
+.page-intro {
+  max-width: 900px;
+  font-size: 1.1rem;
+  line-height: 1.85;
+  color: #52606d;
+  margin: 0.75rem 0 2.25rem 0;
+}
+
+.takeaway-box {
+  background: #f8fbfe;
+  border-left: 5px solid #2c3e50;
+  border-radius: 10px;
+  padding: 1.2rem 1.4rem;
+  margin: 2rem 0 2.5rem 0;
+  box-shadow: 0 3px 10px rgba(20, 40, 60, 0.04);
+}
+
+.takeaway-box h3 {
+  margin-top: 0;
+  margin-bottom: 0.7rem;
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #1f2d3d;
+}
+
+.takeaway-box p {
+  margin-bottom: 0;
+  color: #425466;
+  line-height: 1.7;
+}

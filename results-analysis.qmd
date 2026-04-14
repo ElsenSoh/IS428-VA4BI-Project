@@ -6,7 +6,16 @@ format:
 page-layout: full
 toc: true
 toc-location: right
+toc-depth: 2
 ---
+
+::: {.page-intro}
+
+This page presents the four main findings from our analysis of FILAH, TROUT, and the journalist dataset. Together, these results show how partial evidence can support conflicting accusations, and how broader context changes the interpretation of COOTEFOO’s behaviour.
+
+Each section below highlights a different layer of the story, from accusation-based sentiment patterns to broader activity distribution, network reconstruction, and member-level sampling bias.
+
+:::
 
 ## FILAH & TROUT’s accusations against COOTEFOO
 
@@ -14,7 +23,7 @@ Our first analysis examines whether the accusations made by FILAH and TROUT are 
 
 ::::: card-grid
 ::: info-card
-### FILAH's Accusations Against COOTEFOO
+### FILAH's Accusations
 
 ![](images/filah-accusations.png){width="100%"}
 
@@ -22,7 +31,7 @@ FILAH’s dataset suggests that COOTEFOO members show stronger overall positive 
 :::
 
 ::: info-card
-### TROUT's Accusations Against COOTEFOO
+### TROUT's Accusations
 
 ![](images/trout-accusations.png){width="100%"}
 
@@ -32,17 +41,19 @@ TROUT’s dataset presents the opposite pattern, where members appear more suppo
 
 Taken separately, both datasets seem to support their respective accusations. However, this also reveals an important limitation: each narrative is shaped by the subset of records each group was able to capture. Rather than conclusively proving bias, these visuals show how selective evidence can produce two persuasive but opposing stories.
 
-### Key Takeaway
+::: {.takeaway-box}
+
+**Key Takeaway**
 
 Both FILAH and TROUT’s datasets appear to support their own claims, but only within the boundaries of the evidence they selectively contain.
 
-## COOTEFOO Members’ Activity Distribution Across Topic
+:::
+
+## COOTEFOO Members’ Activity Distribution Across Topics
 
 Our second analysis looks at how COOTEFOO members distribute both their attention and sentiment across fishing- and tourism-related topics. This helps us move beyond accusation-based narratives and instead examine how the committee behaves more broadly when activity patterns are viewed in combination.
 
 ::: info-card
-### COOTEFOO Members’ Activity Distribution Across Topics
-
 ![](images/cootefoo-activity-allocation.png){width="100%"}
 
 ![](images/cootefoo-sentiment-topics.png){width="100%"}
@@ -54,18 +65,20 @@ Taken together, the two visuals suggest that tourism-related topics occupy a lar
 This result adds an important layer to the earlier accusation analysis. Rather than relying only on the selective records presented by FILAH and TROUT, these broader topic-level patterns suggest that tourism is more dominant not only in where members spend their time, but also in how positively those topics are engaged with.
 :::
 
-### Key Takeaway
+::: {.takeaway-box}
+
+**Key Takeaway**
 
 Tourism-related topics appear to dominate both member attention and sentiment, while fishing-related topics show lower engagement and more varied sentiment.
+
+:::
 
 ## Reconstructing the Full Picture
 
 Our third analysis brings together the broader combined dataset to reconstruct a fuller picture of COOTEFOO’s behaviour. Unlike the earlier accusation-based visuals, this network graph captures how members, topics, and interactions connect when viewed in wider context.
 
 ::: {.info-card .result-feature}
-### Reconstructing the Full Picture
-
-![](images/reconstructing-full-picture.png){width="100%"}
+![](images/reconstructing-full-picture.png){width="80%"}
 
 The combined knowledge graph suggests that COOTEFOO is more tourism-leaning overall. Tourism-related topics appear more prominent in the network, with more members connected across multiple tourism activities and visibly stronger interaction patterns.
 
@@ -83,9 +96,13 @@ Three main patterns stand out:
 Taken together, this full reconstruction provides a more balanced benchmark than the selective FILAH and TROUT datasets. Rather than showing two equally strong sides, the broader view suggests that tourism is more structurally dominant in COOTEFOO’s collective activity.
 :::
 
-### Key Takeaway
+::: {.takeaway-box}
+
+**Key Takeaway**
 
 When the full dataset is reconstructed as a network, COOTEFOO appears more tourism-oriented overall, while fishing support is narrower and concentrated among fewer members.
+
+:::
 
 ## Selective Accusations and Sampling Bias in TROUT and FILAH
 
@@ -113,6 +130,10 @@ Taken together, these two comparisons show that neither advocacy dataset offers 
 
 At the member level, the distortions become especially clear. **Seal** appears to be weakly or inconsistently positioned in both tourism and fishing, suggesting no strong or stable bias. This makes the accusation against him relatively unsupported. By contrast, **Tante Titan** appears to be the member most affected by sampling bias in FILAH’s dataset: despite showing the highest tourism sentiment and the largest number of records in the broader benchmark, she is omitted from FILAH’s accused set. Excluding her removes one of the clearest tourism-supporting signals and significantly weakens the dataset’s reliability.
 
-### Key Takeaway
+::: {.takeaway-box}
 
-Both TROUT and FILAH rely on selective member subsets, and these omissions materially shape the conclusions they are able to draw. Sampling bias does not just alter the story at group level — it can also misrepresent individual members.
+**Key Takeaway**
+
+Both TROUT and FILAH rely on selective member subsets, and these omissions materially shape the conclusions they are able to draw.
+
+:::
