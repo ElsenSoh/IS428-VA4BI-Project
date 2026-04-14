@@ -123,3 +123,35 @@
 .nav-card:hover h3 {
   color: #2c3e50;
 }
+
+.info-card img,
+.nav-card img {
+  display: block;
+  width: 100%;
+  border: 1.5px solid #dce5ee;
+  border-radius: 10px;
+  margin: 0.75rem 0 1rem 0;
+  box-shadow: 0 4px 12px rgba(20, 40, 60, 0.06);
+}
+
+.result-feature {
+  padding: 1.6rem 1.5rem;
+}
+
+.result-feature h3 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.result-feature ul,
+.result-feature ol {
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+  padding-left: 1.25rem;
+}
+
+.result-feature li {
+  margin-bottom: 0.6rem;
+  line-height: 1.7;
+}

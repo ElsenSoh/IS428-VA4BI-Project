@@ -123,3 +123,17 @@
 .nav-card:hover h3 {
   color: #2c3e50;
 }
+
+.info-card img,
+.nav-card img {
+  border-radius: 10px;
+  margin: 0.75rem 0 1rem 0;
+}
+
+.info-card img,
+.nav-card img {
+  border: 1.5px solid #dce5ee;
+  border-radius: 10px;
+  margin: 0.75rem 0 1rem 0;
+  box-shadow: 0 4px 12px rgba(20, 40, 60, 0.06);
+}
