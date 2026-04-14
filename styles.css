@@ -135,7 +135,7 @@
 }
 
 .result-feature {
-  padding: 1.6rem 1.5rem;
+  margin-bottom: 2rem;
 }
 
 .result-feature h3 {
@@ -186,3 +186,25 @@
   color: #425466;
   line-height: 1.7;
 }
+
+#TOC {
+  font-size: 0.95rem;
+  border-left: 3px solid #dce5ee;
+  padding-left: 1rem;
+}
+
+#TOC .nav-link {
+  color: #5b6775;
+  text-decoration: none;
+  margin-bottom: 0.35rem;
+}
+
+#TOC .nav-link:hover {
+  color: #2c3e50;
+}
+
+#TOC .active {
+  color: #2c3e50 !important;
+  font-weight: 600;
+}
+
