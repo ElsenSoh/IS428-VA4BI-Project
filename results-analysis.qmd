@@ -101,16 +101,12 @@ When the full dataset is reconstructed as a network, COOTEFOO appears more touri
 Our fourth analysis compares which members were accused by TROUT and FILAH against the broader benchmark of sentiment and record coverage. This helps us identify where each dataset selectively captures certain individuals while excluding others, and shows how sampling bias can distort both group-level conclusions and member-level accusations.
 
 ::: {.info-card .result-feature}
-### Members Accused by TROUT
-
 ![](images/members-accused-by-trout.png){width="100%"}
 
 TROUT selectively captures a subset of members that makes fishing support appear stronger and tourism support appear weaker or more negative. In particular, it overrepresents members with stronger fishing sentiment while omitting members who show more consistently strong tourism support.
 :::
 
 ::: {.info-card .result-feature}
-### Members Accused by FILAH
-
 ![](images/members-accused-by-filah.png){width="100%"}
 
 FILAH captures a different subset of members. While it includes some tourism-leaning individuals, it also omits important members whose broader records would complicate the accusation narrative. This makes its argument vulnerable to missing-context bias.
