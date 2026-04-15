@@ -81,7 +81,21 @@
     "href": "about-us.html",
     "title": "About Us",
     "section": "",
-    "text": "## Team Members\n\n- Elsen Soh\n- Gloria Phua\n- Jaxsen Tee\n\n## Roles and Contributions\n\nBriefly describe what each team member contributed to the project."
+    "text": "We are a team of Singapore Management University students from the IS428 Visual Analytics course. This project brought together our shared interests in data storytelling, visual design, and analytical problem-solving.\nThrough this challenge, we worked collaboratively across data preparation, analysis, visualisation, and website development to uncover how selective evidence can shape competing narratives."
+  },
+  {
+    "objectID": "about-us.html#meet-the-team",
+    "href": "about-us.html#meet-the-team",
+    "title": "About Us",
+    "section": "Meet the Team",
+    "text": "Meet the Team\n\n\n\nElsen Soh\nYear 4\nQuant Economics, Data Science & Analytics\n\n\nJaxsen Tee\nYear 3\n\n\nGloria Phua\nYear 3"
+  },
+  {
+    "objectID": "about-us.html#our-project-experience",
+    "href": "about-us.html#our-project-experience",
+    "title": "About Us",
+    "section": "Our Project Experience",
+    "text": "Our Project Experience\nThis project was a valuable opportunity for us to apply visual analytics concepts to a realistic and open-ended challenge. Beyond technical analysis, it taught us the importance of teamwork, critical thinking, and designing clear stories from incomplete data."
   },
   {
     "objectID": "index.html",
