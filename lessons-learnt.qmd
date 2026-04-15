@@ -1,16 +1,76 @@
 ---
 title: "Lessons Learnt"
-author: "Elsen Soh, Gloria Phua, Jaxsen Tee"
+format:
+  html:
+    css: styles.css
+page-layout: full
+toc: true
+toc-location: right
+toc-depth: 2
 ---
 
-\## Challenges Faced\
-\
-Describe the difficulties encountered during the project.\
-\
-\## Skills Gained\
-\
-Explain what your team learnt from the project.\
-\
-\## Future Improvements\
-\
-Mention what you would improve if you had more time or more advanced tools.
+::: {.page-intro}
+
+This page reflects on the key lessons, challenges, and practical skills we developed throughout the project. Beyond completing the analytical tasks, the process helped us better understand how visual analytics works in real settings, where incomplete data, design choices, and communication all shape the final story.
+
+:::
+
+## Key Lessons from the Project
+
+### Data can be persuasive without being complete
+
+One of our biggest takeaways was that data does not automatically reveal the full truth. In this project, both FILAH and TROUT used partial datasets that seemed convincing when viewed on their own. However, once these were compared against the broader journalist dataset, it became clear that incomplete records could still produce strong but conflicting narratives. This taught us the importance of questioning what may be missing, not just what is visible.
+
+### Visual analytics is not only about charts
+
+We also learnt that visual analytics is not simply about building graphs or dashboards. It is equally about structuring a clear analytical story. This includes deciding what to show first, how to compare different perspectives, and how to guide users from isolated findings toward a broader interpretation. Through this project, we learnt that good visual analytics combines exploration, explanation, and communication.
+
+### Broader context changes interpretation
+
+A further lesson was that interpretation becomes much more reliable when more context is introduced. In our case, the fuller journalist dataset changed how we understood both the accusations and the individual members involved. This reminded us that conclusions drawn from narrow evidence can easily be overstated, and that broader context is often essential for balanced analysis.
+
+## Challenges We Faced
+
+### Working with raw and fragmented records
+
+One major challenge was preparing the raw datasets for analysis. The project required us to work with multiple sources that differed in scope, format, and completeness. Before meaningful comparisons could be made, we had to organise the records, standardise labels, and build a structure that would allow us to analyse members, topics, and interactions consistently.
+
+### Turning complex findings into a clear story
+
+Another challenge was deciding how to present our analysis without overwhelming the audience. Since the project involved multiple datasets, competing accusations, and different levels of analysis, there was a risk of producing too many visuals without a strong narrative. We had to think carefully about how to sequence the findings so that the audience could follow the logic from accusation, to reconstruction, to sampling bias.
+
+### Balancing depth with usability
+
+We also found it challenging to balance analytical detail with readability. Some visuals contained rich information, but not all of it could be shown at once without making the page feel cluttered. This pushed us to make design decisions about layout, chart selection, and explanation length, so that the project would remain both informative and accessible.
+
+## Beyond the Lab
+
+### Learning to present analysis through a website
+
+Beyond the lab sessions, we explored how to communicate our findings through a project website rather than a standard report alone. This involved working with Quarto, page layouts, section flow, image placement, navigation structure, and deployment through Vercel. Through this, we gained experience in presenting analytical work in a more interactive and user-friendly way.
+
+### Improving visual design and storytelling
+
+We also went beyond the lab by thinking more carefully about how design influences understanding. This included refining chart layouts, improving readability, organising sections for smoother flow, and making the website visually consistent. These decisions helped us appreciate that design is not separate from analysis — it affects how findings are interpreted and remembered.
+
+### Strengthening collaboration through tools and workflow
+
+Another area of learning beyond the lab was collaboration. As a group, we worked across different stages of the project, from data preparation to chart design to website building. This required us to coordinate files, align interpretations, and make sure that the final story remained consistent across pages. In doing so, we developed a better sense of how teamwork supports analytical projects.
+
+## What We Would Improve with More Time
+
+### Add deeper temporal analysis
+
+If given more time, we would extend the project by exploring whether member behaviour changed over time. A temporal view of meetings, interactions, or topic engagement could reveal whether support for tourism or fishing strengthened, weakened, or shifted across different periods.
+
+### Incorporate more qualitative evidence
+
+We would also explore ways to include more qualitative context, such as text-based reasons, discussion notes, or meeting records, where available. This could help us move beyond sentiment and interaction counts to better understand why certain members appeared more strongly connected to particular topics.
+
+### Expand interactivity and comparison features
+
+A further improvement would be to make the website more interactive, for example by allowing users to switch views more easily between datasets or focus on specific members. This would make the project more exploratory and allow users to examine how the same story changes depending on what evidence is included.
+
+## Final Reflection
+
+Overall, this project helped us understand that visual analytics is not only about finding patterns, but also about questioning evidence, recognising limitations, and presenting insights responsibly. It showed us that incomplete data can still produce confident-looking conclusions, and that careful comparison, reconstruction, and communication are essential in reaching a more balanced interpretation.
