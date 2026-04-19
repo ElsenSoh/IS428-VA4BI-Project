@@ -13,7 +13,6 @@ toc-depth: 2
 This page reflects on the key lessons, challenges, and practical skills we developed throughout the project. Beyond completing the analytical tasks, the process helped us better understand how visual analytics works in real settings, where incomplete data, design choices, and communication all shape the final story.
 :::
 
-::: lesson-card
 ## Key Lessons from the Project 
 
 ### Data can be persuasive without being complete
@@ -27,9 +26,7 @@ We also learnt that visual analytics is not simply about building graphs or dash
 ### Broader context changes interpretation
 
 A further lesson was that interpretation becomes much more reliable when more context is introduced. In our case, the fuller journalist dataset changed how we understood both the accusations and the individual members involved. This reminded us that conclusions drawn from narrow evidence can easily be overstated, and that broader context is often essential for balanced analysis.
-:::
 
-::: lesson-card
 ## Challenges We Faced
 
 ### Working with raw and fragmented records
@@ -43,7 +40,6 @@ Another challenge was deciding how to present our analysis without overwhelming 
 ### Balancing depth with usability
 
 We also found it challenging to balance analytical detail with readability. Some visuals contained rich information, but not all of it could be shown at once without making the page feel cluttered. This pushed us to make design decisions about layout, chart selection, and explanation length, so that the project would remain both informative and accessible.
-:::
 
 ## Beyond the Lab
 

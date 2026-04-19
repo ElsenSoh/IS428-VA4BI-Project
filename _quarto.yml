@@ -11,6 +11,8 @@ website:
         text: Methodology
       - href: results-analysis.qmd
         text: Results & Analysis
+      - href: user-guide.qmd
+        text: User Guide
       - href: lessons-learnt.qmd
         text: Lessons Learnt
       - href: about-us.qmd

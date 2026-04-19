@@ -22,19 +22,25 @@ Through this challenge, we worked collaboratively across data preparation, analy
 
 Year 4
 
-*Quant Economics, Data Science & Analytics*
+*Quant Economics, \
+Data Science & Analytics*
 :::
 
 ::: profile-card
 ### Jaxsen Tee
 
 Year 3
+
+*Information Systems (Business Analytics) & \
+Business Management (Quant Finance)*
 :::
 
 ::: profile-card
 ### Gloria Phua
 
 Year 3
+
+*Information Systems (Business Analytics)*
 :::
 ::::::
 

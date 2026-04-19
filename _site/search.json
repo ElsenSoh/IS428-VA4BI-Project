@@ -1,101 +1,108 @@
 [
   {
-    "objectID": "results-analysis.html",
-    "href": "results-analysis.html",
-    "title": "Results & Analysis",
+    "objectID": "user-guide.html",
+    "href": "user-guide.html",
+    "title": "User Guide",
     "section": "",
-    "text": "This page presents the four main findings from our analysis of FILAH, TROUT, and the journalist dataset. Together, these results show how partial evidence can support conflicting accusations, and how broader context changes the interpretation of COOTEFOO’s behaviour.\nEach section below highlights a different layer of the story, from accusation-based sentiment patterns to broader activity distribution, network reconstruction, and member-level sampling bias."
+    "text": "This page explains how to read and interact with the visualisations used throughout our project. Since different charts highlight different aspects of COOTEFOO’s behaviour, this guide helps users understand what each visual represents and what to look out for when interpreting the results."
   },
   {
-    "objectID": "results-analysis.html#filah-trouts-accusations-against-cootefoo",
-    "href": "results-analysis.html#filah-trouts-accusations-against-cootefoo",
-    "title": "Results & Analysis",
-    "section": "FILAH & TROUT’s accusations against COOTEFOO",
-    "text": "FILAH & TROUT’s accusations against COOTEFOO\nOur first analysis examines whether the accusations made by FILAH and TROUT are supported by the records contained within their own datasets. This addresses the first MC2 task: assessing whether signs of bias are visible in each group’s selective evidence.\n\n\nFILAH’s Accusations\n\nFILAH’s dataset suggests that COOTEFOO members show stronger overall positive sentiment toward tourism-related topics, while fishing-related topics appear weaker or more negatively viewed.\n\n\nTROUT’s Accusations\n\nTROUT’s dataset presents the opposite pattern, where members appear more supportive of fishing-related topics than tourism-related activities.\n\n\nTaken separately, both datasets seem to support their respective accusations. However, this also reveals an important limitation: each narrative is shaped by the subset of records each group was able to capture. Rather than conclusively proving bias, these visuals show how selective evidence can produce two persuasive but opposing stories.\n\nKey Takeaway\nBoth FILAH and TROUT’s datasets appear to support their own claims, but only within the boundaries of the evidence they selectively contain."
+    "objectID": "user-guide.html#how-to-use-this-guide",
+    "href": "user-guide.html#how-to-use-this-guide",
+    "title": "User Guide",
+    "section": "How to Use This Guide",
+    "text": "How to Use This Guide\nEach section explains: - what the visual shows, - what the colours or shapes represent, - and what users can do when interacting with the chart."
   },
   {
-    "objectID": "results-analysis.html#cootefoo-members-activity-distribution-across-topics",
-    "href": "results-analysis.html#cootefoo-members-activity-distribution-across-topics",
-    "title": "Results & Analysis",
-    "section": "COOTEFOO Members’ Activity Distribution Across Topics",
-    "text": "COOTEFOO Members’ Activity Distribution Across Topics\nOur second analysis looks at how COOTEFOO members distribute both their attention and sentiment across fishing- and tourism-related topics. This helps us move beyond accusation-based narratives and instead examine how the committee behaves more broadly when activity patterns are viewed in combination.\n\n\n\nThe first heatmap shows how COOTEFOO members allocate their time across different topics, while the second heatmap shows the sentiment they express toward those same topics.\nTaken together, the two visuals suggest that tourism-related topics occupy a larger share of members’ attention and are also associated with more consistently positive sentiment. In contrast, fishing-related topics appear less evenly distributed across members and show a more mixed range of sentiment, suggesting weaker consensus and more variation in support.\nThis result adds an important layer to the earlier accusation analysis. Rather than relying only on the selective records presented by FILAH and TROUT, these broader topic-level patterns suggest that tourism is more dominant not only in where members spend their time, but also in how positively those topics are engaged with.\n\n\nKey Takeaway\nTourism-related topics appear to dominate both member attention and sentiment, while fishing-related topics show lower engagement and more varied sentiment."
+    "objectID": "user-guide.html#filah-and-trout-sentiment-bar-charts",
+    "href": "user-guide.html#filah-and-trout-sentiment-bar-charts",
+    "title": "User Guide",
+    "section": "1. FILAH and TROUT Sentiment Bar Charts",
+    "text": "1. FILAH and TROUT Sentiment Bar Charts\nThis set of charts helps users understand how the FILAH and TROUT datasets portray COOTEFOO members’ sentiment towards fishing- and tourism-related topics. Each dataset is shown using two bar charts: one gives the overall sentiment by topic group, while the other breaks sentiment down into specific topics within each group.\n\nFILAH charts\n\nFILAH overall sentiment by topic\n\nThis chart gives a high-level summary of how the FILAH dataset presents sentiment towards the two main topic groups: Fishing and Tourism.\nA few things to note: - Each bar represents the overall sentiment for one topic group. - The number above the bar shows how many records or observations contribute to that group. - The colour scale reflects sentiment: - blue indicates a more positive sentiment - red/orange indicates a more negative sentiment - A bar above zero suggests a more positive overall view, while a bar below zero suggests a more negative one.\nIn this view, users can quickly compare whether FILAH’s dataset presents COOTEFOO as being more supportive of tourism or fishing overall.\n\n\nFILAH sentiment across individual topics\n\nThis chart breaks the same idea down further by showing sentiment for each individual topic within the Fishing and Tourism groups.\nHow to read this chart: - Topics are grouped into Fishing and Tourism on the left. - Each horizontal bar shows the average sentiment for one topic. - Bars extending further to the right indicate stronger positive sentiment. - Bars extending to the left indicate negative sentiment. - Darker colour intensity reflects a stronger sentiment value.\nThis chart is useful when users want to move beyond the overall summary and see which specific topics are driving the broader pattern.\n\n\n\nTROUT charts\n\nTROUT overall sentiment by topic\n\nThis chart gives the overall sentiment pattern in the TROUT dataset for the two main topic groups: Fishing and Tourism.\nUsers can read it in the same way as the FILAH overview: - each bar represents one topic group, - the number above the bar shows the amount of supporting records, - colour reflects whether sentiment is more positive or negative, - and the bar height indicates the overall sentiment level.\nThis allows users to quickly compare how TROUT’s dataset frames COOTEFOO’s position across the two industries.\n\n\nTROUT sentiment across individual topics\n\nThis chart shows the sentiment for each specific topic captured in the TROUT dataset.\nHow to read this chart: - Each bar corresponds to one topic under either Fishing or Tourism. - The direction and length of the bar indicate whether sentiment is positive or negative, and by how much. - Colour intensity reflects the strength of the sentiment. - Looking across the bars makes it easier to see which individual topics are contributing most strongly to the overall trend.\nThis view is especially helpful when users want to compare topic-level differences rather than just the overall group average.\n\n\nWhat to look out for\nWhen reading these charts, it helps to compare the overall group summary with the topic-level breakdown. The top-level chart shows the broad pattern, while the detailed chart shows which individual topics are actually driving that result. Hovering over the interactive version of the chart can also reveal additional details such as topic group, topic label, sentiment value, and record count."
   },
   {
-    "objectID": "results-analysis.html#reconstructing-the-full-picture",
-    "href": "results-analysis.html#reconstructing-the-full-picture",
-    "title": "Results & Analysis",
-    "section": "Reconstructing the Full Picture",
-    "text": "Reconstructing the Full Picture\nOur third analysis brings together the broader combined dataset to reconstruct a fuller picture of COOTEFOO’s behaviour. Unlike the earlier accusation-based visuals, this network graph captures how members, topics, and interactions connect when viewed in wider context.\n\n\nThe combined knowledge graph suggests that COOTEFOO is more tourism-leaning overall. Tourism-related topics appear more prominent in the network, with more members connected across multiple tourism activities and visibly stronger interaction patterns.\nThree main patterns stand out:\n\nTourism dominates the network structure.\nTourism-related topics are more numerous and more widely connected across the graph. The edges linked to tourism topics also appear thicker and more frequent, suggesting stronger or more repeated interaction.\nTourism support is spread across more active members.\nMembers such as Tante Titan, Simone Kat, and Carol Limpet appear repeatedly across tourism-related nodes, indicating stronger and more consistent tourism engagement.\nFishing support is present, but more concentrated.\nFishing-related activity is still visible in the network, but it appears to be driven by a smaller subset of members, particularly Ed Helpsford and Teddy Goldstein.\n\nTaken together, this full reconstruction provides a more balanced benchmark than the selective FILAH and TROUT datasets. Rather than showing two equally strong sides, the broader view suggests that tourism is more structurally dominant in COOTEFOO’s collective activity.\n\n\nKey Takeaway\nWhen the full dataset is reconstructed as a network, COOTEFOO appears more tourism-oriented overall, while fishing support is narrower and concentrated among fewer members."
+    "objectID": "user-guide.html#activity-distribution-heatmaps",
+    "href": "user-guide.html#activity-distribution-heatmaps",
+    "title": "User Guide",
+    "section": "2. Activity Distribution Heatmaps",
+    "text": "2. Activity Distribution Heatmaps\nThis visual shows how often each COOTEFOO member was involved in different activities under the Fishing and Tourism topic groups. The colour intensity reflects the number of times a member participated in a given activity, so darker cells indicate higher activity counts.\n\nMain heatmap: how members allocate their time\n\nThis heatmap gives an overview of where members are spending their time across the two industries.\nHow to read it: - Each row represents a COOTEFOO member. - Each column represents a specific activity or topic. - The chart is split into Fishing and Tourism sections. - A darker cell means that the member appeared more frequently in that activity. - Blank or very light cells indicate little or no recorded involvement.\nThis view is useful for spotting broad participation patterns. Users can quickly see which members are more active overall, and whether their activity is spread across both industries or concentrated in one area.\n\n\n\nHovering over a cell\n\nWhen users hover over a cell, they can see more specific details such as: - the topic group, - the topic label, - the COOTEFOO member, - and the activity count for that cell.\nThis helps users move from the overall pattern to the exact value behind a specific square.\n\n\nHovering over a topic or member\n\nHovering over a topic label highlights all cells under that topic, making it easier to see which members were involved.\n\nHovering over a member name highlights that person’s activity across the chart, which helps users follow one member’s participation pattern more clearly.\n\n\n\nWhat to look out for\nThis heatmap is best used to identify who is active, where that activity is concentrated, and whether participation is spread evenly or clustered around particular members and topics. The main chart gives the overall structure, while the hover interactions make it easier to examine specific cells, rows, or columns in more detail.\n\n\nAverage sentiment heatmap\nThis companion heatmap shows the average sentiment expressed by each COOTEFOO member across different topics under Fishing and Tourism. While the previous heatmap focuses on how often members participated, this view focuses on whether their sentiment towards a topic was more positive, negative, or neutral.\n\nMain heatmap: members’ sentiment across topics\n\nThis heatmap is useful for understanding not just where members were active, but how they appeared to feel about the topics they were involved in.\nHow to read it: - Each row represents a COOTEFOO member. - Each column represents a specific topic. - The chart is divided into Fishing and Tourism sections. - The colour scale reflects sentiment: - blue indicates more positive sentiment - orange/red indicates more negative sentiment - lighter or neutral tones indicate weaker or more balanced sentiment - Darker shades represent stronger sentiment values in either direction.\nThis makes it easier to spot whether a member appears consistently supportive, consistently critical, or more mixed across the two topic groups.\n\n\n\nHovering over a cell\n\nWhen users hover over a cell, they can view details such as: - the topic group, - the topic label, - the COOTEFOO member, - and the average sentiment for that specific cell.\nThis helps users move from the broad colour pattern to the exact value behind a topic-member combination.\n\n\nHovering over a topic or member\n\nHovering over a topic label highlights the full column, making it easier to see which members expressed sentiment towards that topic.\n\nHovering over a member name highlights that member’s row, so users can follow how that individual’s sentiment varies across topics.\n\n\n\nWhat to look out for\nThis heatmap is best used to compare how different members feel about different topics, rather than just how often they appeared. It is especially useful for spotting broad tendencies, such as whether a member seems more positive towards tourism-related topics, more negative towards fishing-related topics, or mixed across both."
   },
   {
-    "objectID": "results-analysis.html#selective-accusations-and-sampling-bias-in-trout-and-filah",
-    "href": "results-analysis.html#selective-accusations-and-sampling-bias-in-trout-and-filah",
-    "title": "Results & Analysis",
-    "section": "Selective Accusations and Sampling Bias in TROUT and FILAH",
-    "text": "Selective Accusations and Sampling Bias in TROUT and FILAH\nOur fourth analysis compares which members were accused by TROUT and FILAH against the broader benchmark of sentiment and record coverage. This helps us identify where each dataset selectively captures certain individuals while excluding others, and shows how sampling bias can distort both group-level conclusions and member-level accusations.\n\n\nTROUT selectively captures a subset of members that makes fishing support appear stronger and tourism support appear weaker or more negative. In particular, it overrepresents members with stronger fishing sentiment while omitting members who show more consistently strong tourism support.\n\n\n\nFILAH captures a different subset of members. While it includes some tourism-leaning individuals, it also omits important members whose broader records would complicate the accusation narrative. This makes its argument vulnerable to missing-context bias.\n\nSeal is wrongly accused in both TROUT and FILAH, as his behavior shows no strong or consistent bias. His sentiment is low for both Tourism (0.133) and Fishing (0.083), well below the group averages, indicating a largely neutral stance. Unlike highly polarized individuals such as Teddy Goldstein and Ed Helpsford, Seal’s behavior is weak and based on limited records (12), making the accusation unsupported.\nTante Titan is the most impacted by sampling bias in the FILAH dataset. Despite having the highest Tourism sentiment (0.819) and the largest number of records (54), she is completely omitted. This removes the strongest and most consistent Tourism signal from the dataset, significantly weakening FILAH’s argument and distorting the overall interpretation.\n\nKey takeaway\nBoth TROUT and FILAH rely on selective subsets of members. These omissions materially shape the conclusions they are able to draw, showing how incomplete coverage can create persuasive but misleading accusations."
+    "objectID": "user-guide.html#topic-overview-across-meetings",
+    "href": "user-guide.html#topic-overview-across-meetings",
+    "title": "User Guide",
+    "section": "3. Topic Overview Across Meetings",
+    "text": "3. Topic Overview Across Meetings\nThis visual shows how different fishing- and tourism-related topics appeared across meetings, together with the average sentiment attached to each discussion detail. It is useful for understanding not just which topics were discussed, but also when they appeared and whether the sentiment around them was more positive, negative, or mixed.\n\nMain chart: topic overview across meetings\n\nThis chart maps discussion activity across meetings.\nHow to read it: - Each row represents a topic. - Each column represents a meeting. - Each dot represents one recorded discussion detail related to that topic in that meeting. - If multiple dots appear in the same row and column, that means there were multiple details or discussion points recorded for that topic in that meeting. - The colour of each dot reflects the average sentiment: - blue indicates more positive sentiment - orange/red indicates more negative sentiment - lighter tones indicate weaker or more neutral sentiment\nThis makes it possible to spot both the frequency of discussion and the emotional direction of those discussions at the same time.\n\n\nHovering over a dot\n\nWhen users hover over a dot, they can see: - the meeting number, - the topic, - the specific discussion detail, - and the average sentiment attached to that detail.\nThis helps users move beyond the overall visual pattern and inspect exactly what was being discussed at a particular point in time.\n\n\nWhat to look out for\nThis chart is most useful for identifying when certain topics became active, which meetings were more discussion-heavy, and whether the sentiment around a topic stayed consistent or changed over time. A row with many dots suggests repeated discussion, while a mix of blue and orange dots may indicate disagreement or changing sentiment across meetings."
   },
   {
-    "objectID": "lessons-learnt.html",
-    "href": "lessons-learnt.html",
-    "title": "Lessons Learnt",
+    "objectID": "user-guide.html#individual-member-engagement-and-sentiment-across-topics",
+    "href": "user-guide.html#individual-member-engagement-and-sentiment-across-topics",
+    "title": "User Guide",
+    "section": "4. Individual Member Engagement and Sentiment Across Topics",
+    "text": "4. Individual Member Engagement and Sentiment Across Topics\nThis visual focuses on one COOTEFOO member at a time. It shows how that member’s discussions and sentiment were distributed across topics and meetings, allowing users to move from the broader meeting-level picture to a more individual-level view.\n\nMain chart: individual member engagement across topics\n\nThis chart helps users understand how one selected member was involved in different topic discussions across meetings.\nHow to read it: - Each row represents a topic. - Each column represents a meeting. - Each dot represents one discussion or plan related to that topic in that meeting for the selected member. - The colour of the dot reflects sentiment: - blue indicates more positive sentiment - orange/red indicates more negative sentiment - The chart updates based on which member is selected from the filter on the right.\nThis makes it easier to trace an individual member’s discussion pattern over time instead of looking at the committee as a whole.\n\n\n\nHovering over a dot\n\nWhen users hover over a dot, they can see more detailed information, including: - the meeting number, - the topic group, - the topic, - the discussion or plan, - and the sentiment value.\nThis is useful when users want to inspect the exact record behind one point in the chart.\n\n\nUsing the member filter\n\nThe filter on the right allows users to select a specific COOTEFOO member. Once selected, the chart updates to show only that person’s engagement and sentiment across topics.\nThis feature is helpful when comparing members individually, especially when users want to see whether a person’s discussion pattern appears more concentrated in tourism-related topics, fishing-related topics, or both.\n\n\n\nWhat to look out for\nThis visual is most useful when users want to understand how one member behaves across meetings, rather than how the entire committee behaves overall. By combining the member filter with the hover details, users can follow whether a member appears repeatedly in certain topics, whether their sentiment stays consistent, and whether their engagement is concentrated in one topic group or spread across both."
+  },
+  {
+    "objectID": "user-guide.html#accused-members-comparison-charts",
+    "href": "user-guide.html#accused-members-comparison-charts",
+    "title": "User Guide",
+    "section": "5. Accused Members Comparison Charts",
+    "text": "5. Accused Members Comparison Charts\nThis pair of charts compares the members accused by TROUT and FILAH against the broader benchmark of sentiment and record coverage. It helps users see not only whether a member appears more positive or negative towards a topic group, but also how many records support that interpretation.\n\nMain chart: comparing accused and non-accused members\n\nThese charts show the average sentiment of members across Tourism and Fishing, while also indicating whether they were accused by TROUT or FILAH.\nHow to read this visual: - The bars represent the average sentiment for each member. - The height of the bar shows whether sentiment is stronger or weaker. - The chart is split into Tourism and Fishing sections. - The colour of the bar shows accusation status: - red indicates members accused by TROUT - blue indicates members accused by FILAH - grey indicates members who were not accused - The circles above the bars show the number of records contributing to that member’s score. - The dashed horizontal line shows the group average, making it easier to compare each member against the broader pattern.\nThis visual is useful when users want to see whether a member’s accusation aligns with their observed sentiment, and whether that conclusion is supported by a large or small number of records.\n\n\n\nHovering over the record-count circles\n\nWhen users hover over the circles, they can see the number of times a COOTEFOO member was involved in that topic group.\nThis is important because a member with a very strong-looking sentiment may still be based on only a small number of records, which makes the conclusion less stable.\n\n\nHovering over the bars\n\nWhen users hover over a bar, they can see more detail, such as: - the topic group, - the member, - whether that member was accused, - and the average sentiment value.\nThis makes it easier to compare whether the accusation matches the member’s broader sentiment pattern.\n\n\n\nWhat to look out for\nThese charts are best used to compare who was accused, how strongly their sentiment differs from the group average, and how much data supports that reading. The bars show the sentiment pattern, while the circles help users judge whether that pattern is based on broad evidence or only a small number of records."
+  },
+  {
+    "objectID": "user-guide.html#network-graph-reconstructing-the-full-picture",
+    "href": "user-guide.html#network-graph-reconstructing-the-full-picture",
+    "title": "User Guide",
+    "section": "6. Network Graph: Reconstructing the Full Picture",
+    "text": "6. Network Graph: Reconstructing the Full Picture\nThis visual brings everything together by showing how COOTEFOO members are connected to different topics through their discussions, activities, and plans. Instead of looking at topics or members separately, this graph shows how they are linked as a network.\n\nMain chart: COOTEFOO network graph\n\nThis network graph connects members to the topics they were involved in.\nHow to read it: - Beige nodes represent COOTEFOO members. - Blue nodes represent tourism-related topics. - Pink nodes represent fishing-related topics. - Each line (edge) connects a member to a topic they interacted with.\nThis allows users to see how members are linked across different topics and whether their activity is concentrated in certain areas.\n\n\n\nUnderstanding the connections (edges)\n\nThe thickness of the line shows how frequently a member interacted with a topic.\n→ Thicker lines mean more repeated discussions or involvement.\nThe colour of the line reflects sentiment:\n\nGreen → more positive sentiment\n\nRed → more negative sentiment\n\nGrey → more neutral or mixed sentiment\n\n\nThis helps users understand not just what was discussed, but also how members felt about those topics.\n\n\nUnderstanding the nodes\n\nNode size (for members) reflects how active they are overall.\n→ Larger nodes indicate members who participated in more discussions, activities, or plans.\nTopic nodes remain similar in size, but their colour indicates category:\n\nBlue → Tourism\n\nPink → Fishing\n\n\nThis makes it easier to see which members are more connected to tourism or fishing topics at a glance.\n\n\n\nWhat to look out for\nThis graph is most useful for identifying overall patterns of engagement. Users can look for clusters of connections, heavily connected members, and whether activity is concentrated around tourism or fishing topics. Thick green links suggest strong and consistent support, while mixed or thinner links may indicate weaker or more varied involvement."
+  },
+  {
+    "objectID": "methodology.html",
+    "href": "methodology.html",
+    "title": "Methodology",
     "section": "",
-    "text": "This page reflects on the key lessons, challenges, and practical skills we developed throughout the project. Beyond completing the analytical tasks, the process helped us better understand how visual analytics works in real settings, where incomplete data, design choices, and communication all shape the final story."
+    "text": "Our approach follows a structured end-to-end pipeline, transforming raw, fragmented records into meaningful visual insights. By combining data preparation, network analysis, and interactive visualisation, we reconstruct a more complete view of COOTEFOO’s activities and uncover patterns that may not be visible in isolated datasets."
   },
   {
-    "objectID": "lessons-learnt.html#key-lessons-from-the-project",
-    "href": "lessons-learnt.html#key-lessons-from-the-project",
-    "title": "Lessons Learnt",
-    "section": "Key Lessons from the Project",
-    "text": "Key Lessons from the Project\n\nData can be persuasive without being complete\nOne of our biggest takeaways was that data does not automatically reveal the full truth. In this project, both FILAH and TROUT used partial datasets that seemed convincing when viewed on their own. However, once these were compared against the broader journalist dataset, it became clear that incomplete records could still produce strong but conflicting narratives. This taught us the importance of questioning what may be missing, not just what is visible.\n\n\nVisual analytics is not only about charts\nWe also learnt that visual analytics is not simply about building graphs or dashboards. It is equally about structuring a clear analytical story. This includes deciding what to show first, how to compare different perspectives, and how to guide users from isolated findings toward a broader interpretation. Through this project, we learnt that good visual analytics combines exploration, explanation, and communication.\n\n\nBroader context changes interpretation\nA further lesson was that interpretation becomes much more reliable when more context is introduced. In our case, the fuller journalist dataset changed how we understood both the accusations and the individual members involved. This reminded us that conclusions drawn from narrow evidence can easily be overstated, and that broader context is often essential for balanced analysis."
+    "objectID": "methodology.html#data-collection-and-structuring",
+    "href": "methodology.html#data-collection-and-structuring",
+    "title": "Methodology",
+    "section": "1. Data Collection and Structuring",
+    "text": "1. Data Collection and Structuring\nWe began by consolidating raw datasets from three sources: TROUT, FILAH, and the journalist records. Each dataset captures different subsets of COOTEFOO’s activities, making it necessary to align them into a common structure before analysis.\nThe data was originally stored in a JSON node-edge format, where: - nodes represent entities such as members and discussion topics\n- edges represent relationships, interactions, or connections between them\nThis structure allows us to analyse not just individual data points, but also how different actors and topics are connected within the broader network."
   },
   {
-    "objectID": "lessons-learnt.html#challenges-we-faced",
-    "href": "lessons-learnt.html#challenges-we-faced",
-    "title": "Lessons Learnt",
-    "section": "Challenges We Faced",
-    "text": "Challenges We Faced\n\nWorking with raw and fragmented records\nOne major challenge was preparing the raw datasets for analysis. The project required us to work with multiple sources that differed in scope, format, and completeness. Before meaningful comparisons could be made, we had to organise the records, standardise labels, and build a structure that would allow us to analyse members, topics, and interactions consistently.\n\n\nTurning complex findings into a clear story\nAnother challenge was deciding how to present our analysis without overwhelming the audience. Since the project involved multiple datasets, competing accusations, and different levels of analysis, there was a risk of producing too many visuals without a strong narrative. We had to think carefully about how to sequence the findings so that the audience could follow the logic from accusation, to reconstruction, to sampling bias.\n\n\nBalancing depth with usability\nWe also found it challenging to balance analytical detail with readability. Some visuals contained rich information, but not all of it could be shown at once without making the page feel cluttered. This pushed us to make design decisions about layout, chart selection, and explanation length, so that the project would remain both informative and accessible."
+    "objectID": "methodology.html#data-cleaning-and-transformation",
+    "href": "methodology.html#data-cleaning-and-transformation",
+    "title": "Methodology",
+    "section": "2. Data Cleaning and Transformation",
+    "text": "2. Data Cleaning and Transformation\nThe raw JSON data required significant preprocessing before it could be used for analysis. Using Python (Pandas and NumPy), we transformed the datasets into structured formats suitable for both visualisation and comparison.\nKey steps included: - Converting JSON records into tabular CSV formats\n- Standardising naming conventions across datasets\n- Creating node and edge tables for network analysis\n- Engineering additional features such as: - topic groupings (tourism vs fishing)\n- sentiment or bias indicators\n- engagement and interaction counts\nThese transformations ensured that all datasets could be analysed consistently despite their differences in coverage."
   },
   {
-    "objectID": "lessons-learnt.html#beyond-the-lab",
-    "href": "lessons-learnt.html#beyond-the-lab",
-    "title": "Lessons Learnt",
-    "section": "Beyond the Lab",
-    "text": "Beyond the Lab\n\nLearning to present analysis through a website\nBeyond the lab sessions, we explored how to communicate our findings through a project website rather than a standard report alone. This involved working with Quarto, page layouts, section flow, image placement, navigation structure, and deployment through Vercel. Through this, we gained experience in presenting analytical work in a more interactive and user-friendly way.\n\n\nImproving visual design and storytelling\nWe also went beyond the lab by thinking more carefully about how design influences understanding. This included refining chart layouts, improving readability, organising sections for smoother flow, and making the website visually consistent. These decisions helped us appreciate that design is not separate from analysis — it affects how findings are interpreted and remembered.\n\n\nStrengthening collaboration through tools and workflow\nAnother area of learning beyond the lab was collaboration. As a group, we worked across different stages of the project, from data preparation to chart design to website building. This required us to coordinate files, align interpretations, and make sure that the final story remained consistent across pages. In doing so, we developed a better sense of how teamwork supports analytical projects."
+    "objectID": "methodology.html#network-graph-construction",
+    "href": "methodology.html#network-graph-construction",
+    "title": "Methodology",
+    "section": "3. Network Graph Construction",
+    "text": "3. Network Graph Construction\nTo better understand relationships within the data, we constructed a network graph using Gephi.\nIn this graph: - nodes represent COOTEFOO members and discussion topics\n- edges represent interactions between them\nThis network-based view allows us to move beyond simple counts and observe: - which topics dominate discussions\n- how members are connected across different themes\n- whether certain patterns (e.g. tourism vs fishing) are more prominent\nThis step was critical in reconstructing the “full picture” beyond what individual datasets suggested."
   },
   {
-    "objectID": "lessons-learnt.html#what-we-would-improve-with-more-time",
-    "href": "lessons-learnt.html#what-we-would-improve-with-more-time",
-    "title": "Lessons Learnt",
-    "section": "What We Would Improve with More Time",
-    "text": "What We Would Improve with More Time\n\nAdd deeper temporal analysis\nIf given more time, we would extend the project by exploring whether member behaviour changed over time. A temporal view of meetings, interactions, or topic engagement could reveal whether support for tourism or fishing strengthened, weakened, or shifted across different periods.\n\n\nIncorporate more qualitative evidence\nWe would also explore ways to include more qualitative context, such as text-based reasons, discussion notes, or meeting records, where available. This could help us move beyond sentiment and interaction counts to better understand why certain members appeared more strongly connected to particular topics.\n\n\nExpand interactivity and comparison features\nA further improvement would be to make the website more interactive, for example by allowing users to switch views more easily between datasets or focus on specific members. This would make the project more exploratory and allow users to examine how the same story changes depending on what evidence is included."
+    "objectID": "methodology.html#visual-analytics-and-dashboard-development",
+    "href": "methodology.html#visual-analytics-and-dashboard-development",
+    "title": "Methodology",
+    "section": "4. Visual Analytics and Dashboard Development",
+    "text": "4. Visual Analytics and Dashboard Development\nWe used Tableau to translate the processed data into interactive visualisations.\nThese dashboards were designed to: - compare sentiment and engagement across datasets\n- highlight differences between FILAH and TROUT’s claims\n- allow users to explore patterns at both group and individual levels\nRather than presenting static charts, we focused on building visuals that support exploration and comparison, helping users see how different narratives emerge from different subsets of data."
   },
   {
-    "objectID": "lessons-learnt.html#final-reflection",
-    "href": "lessons-learnt.html#final-reflection",
-    "title": "Lessons Learnt",
-    "section": "Final Reflection",
-    "text": "Final Reflection\nOverall, this project helped us understand that visual analytics is not only about finding patterns, but also about questioning evidence, recognising limitations, and presenting insights responsibly. It showed us that incomplete data can still produce confident-looking conclusions, and that careful comparison, reconstruction, and communication are essential in reaching a more balanced interpretation."
+    "objectID": "methodology.html#web-deployment-and-presentation",
+    "href": "methodology.html#web-deployment-and-presentation",
+    "title": "Methodology",
+    "section": "5. Web Deployment and Presentation",
+    "text": "5. Web Deployment and Presentation\nFinally, we brought all components together into an interactive website.\nThe project was developed using: - GitHub for version control and collaboration\n- Quarto for structuring and presenting analytical content\n- Vercel for deployment and hosting\nThis allows our findings to be presented in a clear, accessible format, where users can navigate through the analysis and interact with the results."
   },
   {
-    "objectID": "about-us.html",
-    "href": "about-us.html",
-    "title": "About Us",
-    "section": "",
-    "text": "We are a team of Singapore Management University students from the IS428 Visual Analytics course. This project brought together our shared interests in data storytelling, visual design, and analytical problem-solving.\nThrough this challenge, we worked collaboratively across data preparation, analysis, visualisation, and website development to uncover how selective evidence can shape competing narratives."
-  },
-  {
-    "objectID": "about-us.html#meet-the-team",
-    "href": "about-us.html#meet-the-team",
-    "title": "About Us",
-    "section": "Meet the Team",
-    "text": "Meet the Team\n\n\n\nElsen Soh\nYear 4\nQuant Economics, Data Science & Analytics\n\n\nJaxsen Tee\nYear 3\n\n\nGloria Phua\nYear 3"
-  },
-  {
-    "objectID": "about-us.html#our-project-experience",
-    "href": "about-us.html#our-project-experience",
-    "title": "About Us",
-    "section": "Our Project Experience",
-    "text": "Our Project Experience\nThis project was a valuable opportunity for us to apply visual analytics concepts to a realistic and open-ended challenge. Beyond technical analysis, it taught us the importance of teamwork, critical thinking, and designing clear stories from incomplete data."
+    "objectID": "methodology.html#overall-workflow",
+    "href": "methodology.html#overall-workflow",
+    "title": "Methodology",
+    "section": "Overall Workflow",
+    "text": "Overall Workflow\n\nJSON → Python (Cleaning & Transformation) → Gephi (Network Analysis) → Tableau (Visualisation) → Web Deployment"
   },
   {
     "objectID": "index.html",
@@ -147,52 +154,101 @@
     "text": "Closing Note\nAt its core, this project is about the danger of drawing strong conclusions from incomplete evidence. Through visual analytics, we aim to show how different narratives can emerge from selective data, and how a more complete view can challenge, weaken, or sometimes support those narratives.\nExplore the Methodology View Results & Analysis"
   },
   {
-    "objectID": "methodology.html",
-    "href": "methodology.html",
-    "title": "Methodology",
+    "objectID": "about-us.html",
+    "href": "about-us.html",
+    "title": "About Us",
     "section": "",
-    "text": "Our approach follows a structured end-to-end pipeline, transforming raw, fragmented records into meaningful visual insights. By combining data preparation, network analysis, and interactive visualisation, we reconstruct a more complete view of COOTEFOO’s activities and uncover patterns that may not be visible in isolated datasets."
+    "text": "We are a team of Singapore Management University students from the IS428 Visual Analytics course. This project brought together our shared interests in data storytelling, visual design, and analytical problem-solving.\nThrough this challenge, we worked collaboratively across data preparation, analysis, visualisation, and website development to uncover how selective evidence can shape competing narratives."
   },
   {
-    "objectID": "methodology.html#data-collection-and-structuring",
-    "href": "methodology.html#data-collection-and-structuring",
-    "title": "Methodology",
-    "section": "1. Data Collection and Structuring",
-    "text": "1. Data Collection and Structuring\nWe began by consolidating raw datasets from three sources: TROUT, FILAH, and the journalist records. Each dataset captures different subsets of COOTEFOO’s activities, making it necessary to align them into a common structure before analysis.\nThe data was originally stored in a JSON node-edge format, where: - nodes represent entities such as members and discussion topics\n- edges represent relationships, interactions, or connections between them\nThis structure allows us to analyse not just individual data points, but also how different actors and topics are connected within the broader network."
+    "objectID": "about-us.html#meet-the-team",
+    "href": "about-us.html#meet-the-team",
+    "title": "About Us",
+    "section": "Meet the Team",
+    "text": "Meet the Team\n\n\n\nElsen Soh\nYear 4\nQuant Economics,\nData Science & Analytics\n\n\nJaxsen Tee\nYear 3\nInformation Systems (Business Analytics) &\nBusiness Management (Quant Finance)\n\n\nGloria Phua\nYear 3\nInformation Systems (Business Analytics)"
   },
   {
-    "objectID": "methodology.html#data-cleaning-and-transformation",
-    "href": "methodology.html#data-cleaning-and-transformation",
-    "title": "Methodology",
-    "section": "2. Data Cleaning and Transformation",
-    "text": "2. Data Cleaning and Transformation\nThe raw JSON data required significant preprocessing before it could be used for analysis. Using Python (Pandas and NumPy), we transformed the datasets into structured formats suitable for both visualisation and comparison.\nKey steps included: - Converting JSON records into tabular CSV formats\n- Standardising naming conventions across datasets\n- Creating node and edge tables for network analysis\n- Engineering additional features such as: - topic groupings (tourism vs fishing)\n- sentiment or bias indicators\n- engagement and interaction counts\nThese transformations ensured that all datasets could be analysed consistently despite their differences in coverage."
+    "objectID": "about-us.html#our-project-experience",
+    "href": "about-us.html#our-project-experience",
+    "title": "About Us",
+    "section": "Our Project Experience",
+    "text": "Our Project Experience\nThis project was a valuable opportunity for us to apply visual analytics concepts to a realistic and open-ended challenge. Beyond technical analysis, it taught us the importance of teamwork, critical thinking, and designing clear stories from incomplete data."
   },
   {
-    "objectID": "methodology.html#network-graph-construction",
-    "href": "methodology.html#network-graph-construction",
-    "title": "Methodology",
-    "section": "3. Network Graph Construction",
-    "text": "3. Network Graph Construction\nTo better understand relationships within the data, we constructed a network graph using Gephi.\nIn this graph: - nodes represent COOTEFOO members and discussion topics\n- edges represent interactions between them\nThis network-based view allows us to move beyond simple counts and observe: - which topics dominate discussions\n- how members are connected across different themes\n- whether certain patterns (e.g. tourism vs fishing) are more prominent\nThis step was critical in reconstructing the “full picture” beyond what individual datasets suggested."
+    "objectID": "lessons-learnt.html",
+    "href": "lessons-learnt.html",
+    "title": "Lessons Learnt",
+    "section": "",
+    "text": "This page reflects on the key lessons, challenges, and practical skills we developed throughout the project. Beyond completing the analytical tasks, the process helped us better understand how visual analytics works in real settings, where incomplete data, design choices, and communication all shape the final story."
   },
   {
-    "objectID": "methodology.html#visual-analytics-and-dashboard-development",
-    "href": "methodology.html#visual-analytics-and-dashboard-development",
-    "title": "Methodology",
-    "section": "4. Visual Analytics and Dashboard Development",
-    "text": "4. Visual Analytics and Dashboard Development\nWe used Tableau to translate the processed data into interactive visualisations.\nThese dashboards were designed to: - compare sentiment and engagement across datasets\n- highlight differences between FILAH and TROUT’s claims\n- allow users to explore patterns at both group and individual levels\nRather than presenting static charts, we focused on building visuals that support exploration and comparison, helping users see how different narratives emerge from different subsets of data."
+    "objectID": "lessons-learnt.html#key-lessons-from-the-project",
+    "href": "lessons-learnt.html#key-lessons-from-the-project",
+    "title": "Lessons Learnt",
+    "section": "Key Lessons from the Project",
+    "text": "Key Lessons from the Project\n\nData can be persuasive without being complete\nOne of our biggest takeaways was that data does not automatically reveal the full truth. In this project, both FILAH and TROUT used partial datasets that seemed convincing when viewed on their own. However, once these were compared against the broader journalist dataset, it became clear that incomplete records could still produce strong but conflicting narratives. This taught us the importance of questioning what may be missing, not just what is visible.\n\n\nVisual analytics is not only about charts\nWe also learnt that visual analytics is not simply about building graphs or dashboards. It is equally about structuring a clear analytical story. This includes deciding what to show first, how to compare different perspectives, and how to guide users from isolated findings toward a broader interpretation. Through this project, we learnt that good visual analytics combines exploration, explanation, and communication.\n\n\nBroader context changes interpretation\nA further lesson was that interpretation becomes much more reliable when more context is introduced. In our case, the fuller journalist dataset changed how we understood both the accusations and the individual members involved. This reminded us that conclusions drawn from narrow evidence can easily be overstated, and that broader context is often essential for balanced analysis."
   },
   {
-    "objectID": "methodology.html#web-deployment-and-presentation",
-    "href": "methodology.html#web-deployment-and-presentation",
-    "title": "Methodology",
-    "section": "5. Web Deployment and Presentation",
-    "text": "5. Web Deployment and Presentation\nFinally, we brought all components together into an interactive website.\nThe project was developed using: - GitHub for version control and collaboration\n- Quarto for structuring and presenting analytical content\n- Vercel for deployment and hosting\nThis allows our findings to be presented in a clear, accessible format, where users can navigate through the analysis and interact with the results."
+    "objectID": "lessons-learnt.html#challenges-we-faced",
+    "href": "lessons-learnt.html#challenges-we-faced",
+    "title": "Lessons Learnt",
+    "section": "Challenges We Faced",
+    "text": "Challenges We Faced\n\nWorking with raw and fragmented records\nOne major challenge was preparing the raw datasets for analysis. The project required us to work with multiple sources that differed in scope, format, and completeness. Before meaningful comparisons could be made, we had to organise the records, standardise labels, and build a structure that would allow us to analyse members, topics, and interactions consistently.\n\n\nTurning complex findings into a clear story\nAnother challenge was deciding how to present our analysis without overwhelming the audience. Since the project involved multiple datasets, competing accusations, and different levels of analysis, there was a risk of producing too many visuals without a strong narrative. We had to think carefully about how to sequence the findings so that the audience could follow the logic from accusation, to reconstruction, to sampling bias.\n\n\nBalancing depth with usability\nWe also found it challenging to balance analytical detail with readability. Some visuals contained rich information, but not all of it could be shown at once without making the page feel cluttered. This pushed us to make design decisions about layout, chart selection, and explanation length, so that the project would remain both informative and accessible."
   },
   {
-    "objectID": "methodology.html#overall-workflow",
-    "href": "methodology.html#overall-workflow",
-    "title": "Methodology",
-    "section": "Overall Workflow",
-    "text": "Overall Workflow\n\nJSON → Python (Cleaning & Transformation) → Gephi (Network Analysis) → Tableau (Visualisation) → Web Deployment"
+    "objectID": "lessons-learnt.html#beyond-the-lab",
+    "href": "lessons-learnt.html#beyond-the-lab",
+    "title": "Lessons Learnt",
+    "section": "Beyond the Lab",
+    "text": "Beyond the Lab\n\nLearning to present analysis through a website\nBeyond the lab sessions, we explored how to communicate our findings through a project website rather than a standard report alone. This involved working with Quarto, page layouts, section flow, image placement, navigation structure, and deployment through Vercel. Through this, we gained experience in presenting analytical work in a more interactive and user-friendly way.\n\n\nImproving visual design and storytelling\nWe also went beyond the lab by thinking more carefully about how design influences understanding. This included refining chart layouts, improving readability, organising sections for smoother flow, and making the website visually consistent. These decisions helped us appreciate that design is not separate from analysis — it affects how findings are interpreted and remembered.\n\n\nStrengthening collaboration through tools and workflow\nAnother area of learning beyond the lab was collaboration. As a group, we worked across different stages of the project, from data preparation to chart design to website building. This required us to coordinate files, align interpretations, and make sure that the final story remained consistent across pages. In doing so, we developed a better sense of how teamwork supports analytical projects."
+  },
+  {
+    "objectID": "lessons-learnt.html#what-we-would-improve-with-more-time",
+    "href": "lessons-learnt.html#what-we-would-improve-with-more-time",
+    "title": "Lessons Learnt",
+    "section": "What We Would Improve with More Time",
+    "text": "What We Would Improve with More Time\n\nAdd deeper temporal analysis\nIf given more time, we would extend the project by exploring whether member behaviour changed over time. A temporal view of meetings, interactions, or topic engagement could reveal whether support for tourism or fishing strengthened, weakened, or shifted across different periods.\n\n\nIncorporate more qualitative evidence\nWe would also explore ways to include more qualitative context, such as text-based reasons, discussion notes, or meeting records, where available. This could help us move beyond sentiment and interaction counts to better understand why certain members appeared more strongly connected to particular topics.\n\n\nExpand interactivity and comparison features\nA further improvement would be to make the website more interactive, for example by allowing users to switch views more easily between datasets or focus on specific members. This would make the project more exploratory and allow users to examine how the same story changes depending on what evidence is included."
+  },
+  {
+    "objectID": "lessons-learnt.html#final-reflection",
+    "href": "lessons-learnt.html#final-reflection",
+    "title": "Lessons Learnt",
+    "section": "Final Reflection",
+    "text": "Final Reflection\nOverall, this project helped us understand that visual analytics is not only about finding patterns, but also about questioning evidence, recognising limitations, and presenting insights responsibly. It showed us that incomplete data can still produce confident-looking conclusions, and that careful comparison, reconstruction, and communication are essential in reaching a more balanced interpretation."
+  },
+  {
+    "objectID": "results-analysis.html",
+    "href": "results-analysis.html",
+    "title": "Results & Analysis",
+    "section": "",
+    "text": "This page presents the four main findings from our analysis of FILAH, TROUT, and the journalist dataset. Together, these results show how partial evidence can support conflicting accusations, and how broader context changes the interpretation of COOTEFOO’s behaviour.\nEach section below highlights a different layer of the story, from accusation-based sentiment patterns to broader activity distribution, network reconstruction, and member-level sampling bias."
+  },
+  {
+    "objectID": "results-analysis.html#filah-trouts-accusations-against-cootefoo",
+    "href": "results-analysis.html#filah-trouts-accusations-against-cootefoo",
+    "title": "Results & Analysis",
+    "section": "FILAH & TROUT’s accusations against COOTEFOO",
+    "text": "FILAH & TROUT’s accusations against COOTEFOO\nOur first analysis examines whether the accusations made by FILAH and TROUT are supported by the records contained within their own datasets. This addresses the first MC2 task: assessing whether signs of bias are visible in each group’s selective evidence.\n\n\nFILAH’s Accusations\n\nFILAH’s dataset suggests that COOTEFOO members show stronger overall positive sentiment toward tourism-related topics, while fishing-related topics appear weaker or more negatively viewed.\n\n\nTROUT’s Accusations\n\nTROUT’s dataset presents the opposite pattern, where members appear more supportive of fishing-related topics than tourism-related activities.\n\n\nTaken separately, both datasets seem to support their respective accusations. However, this also reveals an important limitation: each narrative is shaped by the subset of records each group was able to capture. Rather than conclusively proving bias, these visuals show how selective evidence can produce two persuasive but opposing stories.\n\nKey Takeaway\nBoth FILAH and TROUT’s datasets appear to support their own claims, but only within the boundaries of the evidence they selectively contain."
+  },
+  {
+    "objectID": "results-analysis.html#cootefoo-members-activity-distribution-across-topics",
+    "href": "results-analysis.html#cootefoo-members-activity-distribution-across-topics",
+    "title": "Results & Analysis",
+    "section": "COOTEFOO Members’ Activity Distribution Across Topics",
+    "text": "COOTEFOO Members’ Activity Distribution Across Topics\nOur second analysis looks at how COOTEFOO members distribute both their attention and sentiment across fishing- and tourism-related topics. This helps us move beyond accusation-based narratives and instead examine how the committee behaves more broadly when activity patterns are viewed in combination.\n\n\n\nThe first heatmap shows how COOTEFOO members allocate their time across different topics, while the second heatmap shows the sentiment they express toward those same topics.\nTaken together, the two visuals suggest that tourism-related topics occupy a larger share of members’ attention and are also associated with more consistently positive sentiment. In contrast, fishing-related topics appear less evenly distributed across members and show a more mixed range of sentiment, suggesting weaker consensus and more variation in support.\nThis result adds an important layer to the earlier accusation analysis. Rather than relying only on the selective records presented by FILAH and TROUT, these broader topic-level patterns suggest that tourism is more dominant not only in where members spend their time, but also in how positively those topics are engaged with.\n\n\nKey Takeaway\nTourism-related topics appear to dominate both member attention and sentiment, while fishing-related topics show lower engagement and more varied sentiment."
+  },
+  {
+    "objectID": "results-analysis.html#reconstructing-the-full-picture",
+    "href": "results-analysis.html#reconstructing-the-full-picture",
+    "title": "Results & Analysis",
+    "section": "Reconstructing the Full Picture",
+    "text": "Reconstructing the Full Picture\nOur third analysis brings together the broader combined dataset to reconstruct a fuller picture of COOTEFOO’s behaviour. Unlike the earlier accusation-based visuals, this network graph captures how members, topics, and interactions connect when viewed in wider context.\n\n\nThe combined knowledge graph suggests that COOTEFOO is more tourism-leaning overall. Tourism-related topics appear more prominent in the network, with more members connected across multiple tourism activities and visibly stronger interaction patterns.\nThree main patterns stand out:\n\nTourism dominates the network structure.\nTourism-related topics are more numerous and more widely connected across the graph. The edges linked to tourism topics also appear thicker and more frequent, suggesting stronger or more repeated interaction.\nTourism support is spread across more active members.\nMembers such as Tante Titan, Simone Kat, and Carol Limpet appear repeatedly across tourism-related nodes, indicating stronger and more consistent tourism engagement.\nFishing support is present, but more concentrated.\nFishing-related activity is still visible in the network, but it appears to be driven by a smaller subset of members, particularly Ed Helpsford and Teddy Goldstein.\n\nTaken together, this full reconstruction provides a more balanced benchmark than the selective FILAH and TROUT datasets. Rather than showing two equally strong sides, the broader view suggests that tourism is more structurally dominant in COOTEFOO’s collective activity.\n\n\nKey Takeaway\nWhen the full dataset is reconstructed as a network, COOTEFOO appears more tourism-oriented overall, while fishing support is narrower and concentrated among fewer members."
+  },
+  {
+    "objectID": "results-analysis.html#selective-accusations-and-sampling-bias-in-trout-and-filah",
+    "href": "results-analysis.html#selective-accusations-and-sampling-bias-in-trout-and-filah",
+    "title": "Results & Analysis",
+    "section": "Selective Accusations and Sampling Bias in TROUT and FILAH",
+    "text": "Selective Accusations and Sampling Bias in TROUT and FILAH\nOur fourth analysis compares which members were accused by TROUT and FILAH against the broader benchmark of sentiment and record coverage. This helps us identify where each dataset selectively captures certain individuals while excluding others, and shows how sampling bias can distort both group-level conclusions and member-level accusations.\n\n\nTROUT selectively captures a subset of members that makes fishing support appear stronger and tourism support appear weaker or more negative. In particular, it overrepresents members with stronger fishing sentiment while omitting members who show more consistently strong tourism support.\n\n\n\nFILAH captures a different subset of members. While it includes some tourism-leaning individuals, it also omits important members whose broader records would complicate the accusation narrative. This makes its argument vulnerable to missing-context bias.\n\nSeal is wrongly accused in both TROUT and FILAH, as his behavior shows no strong or consistent bias. His sentiment is low for both Tourism (0.133) and Fishing (0.083), well below the group averages, indicating a largely neutral stance. Unlike highly polarized individuals such as Teddy Goldstein and Ed Helpsford, Seal’s behavior is weak and based on limited records (12), making the accusation unsupported.\nTante Titan is the most impacted by sampling bias in the FILAH dataset. Despite having the highest Tourism sentiment (0.819) and the largest number of records (54), she is completely omitted. This removes the strongest and most consistent Tourism signal from the dataset, significantly weakening FILAH’s argument and distorting the overall interpretation.\n\nKey takeaway\nBoth TROUT and FILAH rely on selective subsets of members. These omissions materially shape the conclusions they are able to draw, showing how incomplete coverage can create persuasive but misleading accusations."
   }
 ]

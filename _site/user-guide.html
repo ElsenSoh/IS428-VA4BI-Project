@@ -1,0 +1,811 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.9.35">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>User Guide – IS428-G2-Group 4</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-46f66b053e56abd73bb6e954d61a315b.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-6b423f165eeea3787de40cb4f8e821c3.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">IS428-G2-Group 4</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="./index.html"> 
+<span class="menu-text">Project Overview</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./methodology.html"> 
+<span class="menu-text">Methodology</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./results-analysis.html"> 
+<span class="menu-text">Results &amp; Analysis</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link active" href="./user-guide.html" aria-current="page"> 
+<span class="menu-text">User Guide</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./lessons-learnt.html"> 
+<span class="menu-text">Lessons Learnt</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./about-us.html"> 
+<span class="menu-text">About Us</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul class="collapse">
+  <li><a href="#how-to-use-this-guide" id="toc-how-to-use-this-guide" class="nav-link active" data-scroll-target="#how-to-use-this-guide">How to Use This Guide</a></li>
+  <li><a href="#filah-and-trout-sentiment-bar-charts" id="toc-filah-and-trout-sentiment-bar-charts" class="nav-link" data-scroll-target="#filah-and-trout-sentiment-bar-charts">1. FILAH and TROUT Sentiment Bar Charts</a></li>
+  <li><a href="#activity-distribution-heatmaps" id="toc-activity-distribution-heatmaps" class="nav-link" data-scroll-target="#activity-distribution-heatmaps">2. Activity Distribution Heatmaps</a></li>
+  <li><a href="#topic-overview-across-meetings" id="toc-topic-overview-across-meetings" class="nav-link" data-scroll-target="#topic-overview-across-meetings">3. Topic Overview Across Meetings</a></li>
+  <li><a href="#individual-member-engagement-and-sentiment-across-topics" id="toc-individual-member-engagement-and-sentiment-across-topics" class="nav-link" data-scroll-target="#individual-member-engagement-and-sentiment-across-topics">4. Individual Member Engagement and Sentiment Across Topics</a></li>
+  <li><a href="#accused-members-comparison-charts" id="toc-accused-members-comparison-charts" class="nav-link" data-scroll-target="#accused-members-comparison-charts">5. Accused Members Comparison Charts</a></li>
+  <li><a href="#network-graph-reconstructing-the-full-picture" id="toc-network-graph-reconstructing-the-full-picture" class="nav-link" data-scroll-target="#network-graph-reconstructing-the-full-picture">6. Network Graph: Reconstructing the Full Picture</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content column-page-left" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">User Guide</h1>
+</div>
+
+
+
+<div class="quarto-title-meta column-page-left">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<div class="page-intro">
+<p>This page explains how to read and interact with the visualisations used throughout our project. Since different charts highlight different aspects of COOTEFOO’s behaviour, this guide helps users understand what each visual represents and what to look out for when interpreting the results.</p>
+</div>
+<section id="how-to-use-this-guide" class="level2">
+<h2 class="anchored" data-anchor-id="how-to-use-this-guide">How to Use This Guide</h2>
+<p>Each section explains: - what the visual shows, - what the colours or shapes represent, - and what users can do when interacting with the chart.</p>
+</section>
+<section id="filah-and-trout-sentiment-bar-charts" class="level2">
+<h2 class="anchored" data-anchor-id="filah-and-trout-sentiment-bar-charts">1. FILAH and TROUT Sentiment Bar Charts</h2>
+<p>This set of charts helps users understand how the FILAH and TROUT datasets portray COOTEFOO members’ sentiment towards fishing- and tourism-related topics. Each dataset is shown using two bar charts: one gives the overall sentiment by topic group, while the other breaks sentiment down into specific topics within each group.</p>
+<section id="filah-charts" class="level3">
+<h3 class="anchored" data-anchor-id="filah-charts">FILAH charts</h3>
+<section id="filah-overall-sentiment-by-topic" class="level4 info-card">
+<h4 class="anchored" data-anchor-id="filah-overall-sentiment-by-topic">FILAH overall sentiment by topic</h4>
+<p><img src="images/filah-overall-sentiment.png" class="img-fluid" style="width:100.0%"></p>
+<p>This chart gives a high-level summary of how the FILAH dataset presents sentiment towards the two main topic groups: <strong>Fishing</strong> and <strong>Tourism</strong>.</p>
+<p>A few things to note: - Each bar represents the overall sentiment for one topic group. - The number above the bar shows how many records or observations contribute to that group. - The colour scale reflects sentiment: - <strong>blue</strong> indicates a more positive sentiment - <strong>red/orange</strong> indicates a more negative sentiment - A bar above zero suggests a more positive overall view, while a bar below zero suggests a more negative one.</p>
+<p>In this view, users can quickly compare whether FILAH’s dataset presents COOTEFOO as being more supportive of tourism or fishing overall.</p>
+</section>
+<section id="filah-sentiment-across-individual-topics" class="level4 info-card">
+<h4 class="anchored" data-anchor-id="filah-sentiment-across-individual-topics">FILAH sentiment across individual topics</h4>
+<p><img src="images/filah-topic-sentiment.png" class="img-fluid" style="width:100.0%"></p>
+<p>This chart breaks the same idea down further by showing sentiment for each individual topic within the Fishing and Tourism groups.</p>
+<p>How to read this chart: - Topics are grouped into <strong>Fishing</strong> and <strong>Tourism</strong> on the left. - Each horizontal bar shows the average sentiment for one topic. - Bars extending further to the right indicate stronger positive sentiment. - Bars extending to the left indicate negative sentiment. - Darker colour intensity reflects a stronger sentiment value.</p>
+<p>This chart is useful when users want to move beyond the overall summary and see which specific topics are driving the broader pattern.</p>
+</section>
+</section>
+<section id="trout-charts" class="level3">
+<h3 class="anchored" data-anchor-id="trout-charts">TROUT charts</h3>
+<section id="trout-overall-sentiment-by-topic" class="level4 info-card">
+<h4 class="anchored" data-anchor-id="trout-overall-sentiment-by-topic">TROUT overall sentiment by topic</h4>
+<p><img src="images/trout-overall-sentiment.png" class="img-fluid" style="width:100.0%"></p>
+<p>This chart gives the overall sentiment pattern in the TROUT dataset for the two main topic groups: <strong>Fishing</strong> and <strong>Tourism</strong>.</p>
+<p>Users can read it in the same way as the FILAH overview: - each bar represents one topic group, - the number above the bar shows the amount of supporting records, - colour reflects whether sentiment is more positive or negative, - and the bar height indicates the overall sentiment level.</p>
+<p>This allows users to quickly compare how TROUT’s dataset frames COOTEFOO’s position across the two industries.</p>
+</section>
+<section id="trout-sentiment-across-individual-topics" class="level4 info-card">
+<h4 class="anchored" data-anchor-id="trout-sentiment-across-individual-topics">TROUT sentiment across individual topics</h4>
+<p><img src="images/trout-topic-sentiment.png" class="img-fluid" style="width:100.0%"></p>
+<p>This chart shows the sentiment for each specific topic captured in the TROUT dataset.</p>
+<p>How to read this chart: - Each bar corresponds to one topic under either Fishing or Tourism. - The direction and length of the bar indicate whether sentiment is positive or negative, and by how much. - Colour intensity reflects the strength of the sentiment. - Looking across the bars makes it easier to see which individual topics are contributing most strongly to the overall trend.</p>
+<p>This view is especially helpful when users want to compare topic-level differences rather than just the overall group average.</p>
+</section>
+<div class="takeaway-box">
+<p><strong>What to look out for</strong></p>
+<p>When reading these charts, it helps to compare the <strong>overall group summary</strong> with the <strong>topic-level breakdown</strong>. The top-level chart shows the broad pattern, while the detailed chart shows which individual topics are actually driving that result. Hovering over the interactive version of the chart can also reveal additional details such as topic group, topic label, sentiment value, and record count.</p>
+</div>
+</section>
+</section>
+<section id="activity-distribution-heatmaps" class="level2">
+<h2 class="anchored" data-anchor-id="activity-distribution-heatmaps">2. Activity Distribution Heatmaps</h2>
+<p>This visual shows how often each COOTEFOO member was involved in different activities under the <strong>Fishing</strong> and <strong>Tourism</strong> topic groups. The colour intensity reflects the number of times a member participated in a given activity, so darker cells indicate higher activity counts.</p>
+<section id="main-heatmap-how-members-allocate-their-time" class="level3 info-card">
+<h3 class="anchored" data-anchor-id="main-heatmap-how-members-allocate-their-time">Main heatmap: how members allocate their time</h3>
+<p><img src="images/activity-allocation-heatmap.png" class="img-fluid" style="width:100.0%"></p>
+<p>This heatmap gives an overview of where members are spending their time across the two industries.</p>
+<p>How to read it: - Each <strong>row</strong> represents a COOTEFOO member. - Each <strong>column</strong> represents a specific activity or topic. - The chart is split into <strong>Fishing</strong> and <strong>Tourism</strong> sections. - A darker cell means that the member appeared more frequently in that activity. - Blank or very light cells indicate little or no recorded involvement.</p>
+<p>This view is useful for spotting broad participation patterns. Users can quickly see which members are more active overall, and whether their activity is spread across both industries or concentrated in one area.</p>
+</section>
+<div class="card-grid">
+<section id="hovering-over-a-cell" class="level3 info-card">
+<h3 class="anchored" data-anchor-id="hovering-over-a-cell">Hovering over a cell</h3>
+<p><img src="images/activity-allocation-hover-cell.png" class="img-fluid" style="width:100.0%"></p>
+<p>When users hover over a cell, they can see more specific details such as: - the topic group, - the topic label, - the COOTEFOO member, - and the activity count for that cell.</p>
+<p>This helps users move from the overall pattern to the exact value behind a specific square.</p>
+</section>
+<section id="hovering-over-a-topic-or-member" class="level3 info-card">
+<h3 class="anchored" data-anchor-id="hovering-over-a-topic-or-member">Hovering over a topic or member</h3>
+<p><img src="images/activity-allocation-hover-topic.png" class="img-fluid" style="width:100.0%"></p>
+<p>Hovering over a <strong>topic label</strong> highlights all cells under that topic, making it easier to see which members were involved.</p>
+<p><img src="images/activity-allocation-hover-member.png" class="img-fluid" style="width:100.0%"></p>
+<p>Hovering over a <strong>member name</strong> highlights that person’s activity across the chart, which helps users follow one member’s participation pattern more clearly.</p>
+</section>
+</div>
+<div class="takeaway-box">
+<p><strong>What to look out for</strong></p>
+<p>This heatmap is best used to identify <strong>who is active</strong>, <strong>where that activity is concentrated</strong>, and whether participation is spread evenly or clustered around particular members and topics. The main chart gives the overall structure, while the hover interactions make it easier to examine specific cells, rows, or columns in more detail.</p>
+</div>
+<section id="average-sentiment-heatmap" class="level3">
+<h3 class="anchored" data-anchor-id="average-sentiment-heatmap">Average sentiment heatmap</h3>
+<p>This companion heatmap shows the <strong>average sentiment</strong> expressed by each COOTEFOO member across different topics under <strong>Fishing</strong> and <strong>Tourism</strong>. While the previous heatmap focuses on how often members participated, this view focuses on whether their sentiment towards a topic was more positive, negative, or neutral.</p>
+<section id="main-heatmap-members-sentiment-across-topics" class="level4 info-card">
+<h4 class="anchored" data-anchor-id="main-heatmap-members-sentiment-across-topics">Main heatmap: members’ sentiment across topics</h4>
+<p><img src="images/sentiment-heatmap.png" class="img-fluid" style="width:100.0%"></p>
+<p>This heatmap is useful for understanding not just where members were active, but how they appeared to feel about the topics they were involved in.</p>
+<p>How to read it: - Each <strong>row</strong> represents a COOTEFOO member. - Each <strong>column</strong> represents a specific topic. - The chart is divided into <strong>Fishing</strong> and <strong>Tourism</strong> sections. - The colour scale reflects sentiment: - <strong>blue</strong> indicates more positive sentiment - <strong>orange/red</strong> indicates more negative sentiment - lighter or neutral tones indicate weaker or more balanced sentiment - Darker shades represent stronger sentiment values in either direction.</p>
+<p>This makes it easier to spot whether a member appears consistently supportive, consistently critical, or more mixed across the two topic groups.</p>
+</section>
+<div class="card-grid">
+<section id="hovering-over-a-cell-1" class="level4 info-card">
+<h4 class="anchored" data-anchor-id="hovering-over-a-cell-1">Hovering over a cell</h4>
+<p><img src="images/sentiment-hover-cell.png" class="img-fluid" style="width:100.0%"></p>
+<p>When users hover over a cell, they can view details such as: - the topic group, - the topic label, - the COOTEFOO member, - and the average sentiment for that specific cell.</p>
+<p>This helps users move from the broad colour pattern to the exact value behind a topic-member combination.</p>
+</section>
+<section id="hovering-over-a-topic-or-member-1" class="level4 info-card">
+<h4 class="anchored" data-anchor-id="hovering-over-a-topic-or-member-1">Hovering over a topic or member</h4>
+<p><img src="images/sentiment-hover-topic.png" class="img-fluid" style="width:100.0%"></p>
+<p>Hovering over a <strong>topic label</strong> highlights the full column, making it easier to see which members expressed sentiment towards that topic.</p>
+<p><img src="images/sentiment-hover-member.png" class="img-fluid" style="width:100.0%"></p>
+<p>Hovering over a <strong>member name</strong> highlights that member’s row, so users can follow how that individual’s sentiment varies across topics.</p>
+</section>
+</div>
+<div class="takeaway-box">
+<p><strong>What to look out for</strong></p>
+<p>This heatmap is best used to compare <strong>how different members feel about different topics</strong>, rather than just how often they appeared. It is especially useful for spotting broad tendencies, such as whether a member seems more positive towards tourism-related topics, more negative towards fishing-related topics, or mixed across both.</p>
+</div>
+</section>
+</section>
+<section id="topic-overview-across-meetings" class="level2">
+<h2 class="anchored" data-anchor-id="topic-overview-across-meetings">3. Topic Overview Across Meetings</h2>
+<p>This visual shows how different fishing- and tourism-related topics appeared across meetings, together with the average sentiment attached to each discussion detail. It is useful for understanding not just which topics were discussed, but also when they appeared and whether the sentiment around them was more positive, negative, or mixed.</p>
+<section id="main-chart-topic-overview-across-meetings" class="level3 info-card">
+<h3 class="anchored" data-anchor-id="main-chart-topic-overview-across-meetings">Main chart: topic overview across meetings</h3>
+<p><img src="images/topic-overview-across-meetings.png" class="img-fluid" style="width:100.0%"></p>
+<p>This chart maps discussion activity across meetings.</p>
+<p>How to read it: - Each <strong>row</strong> represents a topic. - Each <strong>column</strong> represents a meeting. - Each <strong>dot</strong> represents one recorded discussion detail related to that topic in that meeting. - If multiple dots appear in the same row and column, that means there were multiple details or discussion points recorded for that topic in that meeting. - The colour of each dot reflects the average sentiment: - <strong>blue</strong> indicates more positive sentiment - <strong>orange/red</strong> indicates more negative sentiment - lighter tones indicate weaker or more neutral sentiment</p>
+<p>This makes it possible to spot both the frequency of discussion and the emotional direction of those discussions at the same time.</p>
+</section>
+<section id="hovering-over-a-dot" class="level3 info-card">
+<h3 class="anchored" data-anchor-id="hovering-over-a-dot">Hovering over a dot</h3>
+<p><img src="images/topic-overview-hover.png" class="img-fluid" style="width:100.0%"></p>
+<p>When users hover over a dot, they can see: - the meeting number, - the topic, - the specific discussion detail, - and the average sentiment attached to that detail.</p>
+<p>This helps users move beyond the overall visual pattern and inspect exactly what was being discussed at a particular point in time.</p>
+</section>
+<div class="takeaway-box">
+<p><strong>What to look out for</strong></p>
+<p>This chart is most useful for identifying <strong>when certain topics became active</strong>, <strong>which meetings were more discussion-heavy</strong>, and whether the sentiment around a topic stayed consistent or changed over time. A row with many dots suggests repeated discussion, while a mix of blue and orange dots may indicate disagreement or changing sentiment across meetings.</p>
+</div>
+</section>
+<section id="individual-member-engagement-and-sentiment-across-topics" class="level2">
+<h2 class="anchored" data-anchor-id="individual-member-engagement-and-sentiment-across-topics">4. Individual Member Engagement and Sentiment Across Topics</h2>
+<p>This visual focuses on one COOTEFOO member at a time. It shows how that member’s discussions and sentiment were distributed across topics and meetings, allowing users to move from the broader meeting-level picture to a more individual-level view.</p>
+<section id="main-chart-individual-member-engagement-across-topics" class="level3 info-card">
+<h3 class="anchored" data-anchor-id="main-chart-individual-member-engagement-across-topics">Main chart: individual member engagement across topics</h3>
+<p><img src="images/member-engagement-sentiment.png" class="img-fluid" style="width:100.0%"></p>
+<p>This chart helps users understand how one selected member was involved in different topic discussions across meetings.</p>
+<p>How to read it: - Each <strong>row</strong> represents a topic. - Each <strong>column</strong> represents a meeting. - Each <strong>dot</strong> represents one discussion or plan related to that topic in that meeting for the selected member. - The colour of the dot reflects sentiment: - <strong>blue</strong> indicates more positive sentiment - <strong>orange/red</strong> indicates more negative sentiment - The chart updates based on which member is selected from the filter on the right.</p>
+<p>This makes it easier to trace an individual member’s discussion pattern over time instead of looking at the committee as a whole.</p>
+</section>
+<div class="card-grid">
+<section id="hovering-over-a-dot-1" class="level3 info-card">
+<h3 class="anchored" data-anchor-id="hovering-over-a-dot-1">Hovering over a dot</h3>
+<p><img src="images/member-engagement-hover.png" class="img-fluid" style="width:100.0%"></p>
+<p>When users hover over a dot, they can see more detailed information, including: - the meeting number, - the topic group, - the topic, - the discussion or plan, - and the sentiment value.</p>
+<p>This is useful when users want to inspect the exact record behind one point in the chart.</p>
+</section>
+<section id="using-the-member-filter" class="level3 info-card">
+<h3 class="anchored" data-anchor-id="using-the-member-filter">Using the member filter</h3>
+<p><img src="images/member-engagement-filter.png" class="img-fluid" style="width:100.0%"></p>
+<p>The filter on the right allows users to select a specific COOTEFOO member. Once selected, the chart updates to show only that person’s engagement and sentiment across topics.</p>
+<p>This feature is helpful when comparing members individually, especially when users want to see whether a person’s discussion pattern appears more concentrated in tourism-related topics, fishing-related topics, or both.</p>
+</section>
+</div>
+<div class="takeaway-box">
+<p><strong>What to look out for</strong></p>
+<p>This visual is most useful when users want to understand <strong>how one member behaves across meetings</strong>, rather than how the entire committee behaves overall. By combining the member filter with the hover details, users can follow whether a member appears repeatedly in certain topics, whether their sentiment stays consistent, and whether their engagement is concentrated in one topic group or spread across both.</p>
+</div>
+</section>
+<section id="accused-members-comparison-charts" class="level2">
+<h2 class="anchored" data-anchor-id="accused-members-comparison-charts">5. Accused Members Comparison Charts</h2>
+<p>This pair of charts compares the members accused by TROUT and FILAH against the broader benchmark of sentiment and record coverage. It helps users see not only whether a member appears more positive or negative towards a topic group, but also how many records support that interpretation.</p>
+<section id="main-chart-comparing-accused-and-non-accused-members" class="level3 info-card">
+<h3 class="anchored" data-anchor-id="main-chart-comparing-accused-and-non-accused-members">Main chart: comparing accused and non-accused members</h3>
+<p><img src="images/accused-members-comparison.png" class="img-fluid" style="width:100.0%"></p>
+<p>These charts show the average sentiment of members across <strong>Tourism</strong> and <strong>Fishing</strong>, while also indicating whether they were accused by TROUT or FILAH.</p>
+<p>How to read this visual: - The <strong>bars</strong> represent the average sentiment for each member. - The <strong>height of the bar</strong> shows whether sentiment is stronger or weaker. - The chart is split into <strong>Tourism</strong> and <strong>Fishing</strong> sections. - The <strong>colour of the bar</strong> shows accusation status: - <strong>red</strong> indicates members accused by TROUT - <strong>blue</strong> indicates members accused by FILAH - <strong>grey</strong> indicates members who were not accused - The <strong>circles above the bars</strong> show the number of records contributing to that member’s score. - The dashed horizontal line shows the group average, making it easier to compare each member against the broader pattern.</p>
+<p>This visual is useful when users want to see whether a member’s accusation aligns with their observed sentiment, and whether that conclusion is supported by a large or small number of records.</p>
+</section>
+<div class="card-grid">
+<section id="hovering-over-the-record-count-circles" class="level3 info-card">
+<h3 class="anchored" data-anchor-id="hovering-over-the-record-count-circles">Hovering over the record-count circles</h3>
+<p><img src="images/accused-hover-record-count.png" class="img-fluid" style="width:100.0%"></p>
+<p>When users hover over the circles, they can see the number of times a COOTEFOO member was involved in that topic group.</p>
+<p>This is important because a member with a very strong-looking sentiment may still be based on only a small number of records, which makes the conclusion less stable.</p>
+</section>
+<section id="hovering-over-the-bars" class="level3 info-card">
+<h3 class="anchored" data-anchor-id="hovering-over-the-bars">Hovering over the bars</h3>
+<p><img src="images/accused-hover-bar-value.png" class="img-fluid" style="width:100.0%"></p>
+<p>When users hover over a bar, they can see more detail, such as: - the topic group, - the member, - whether that member was accused, - and the average sentiment value.</p>
+<p>This makes it easier to compare whether the accusation matches the member’s broader sentiment pattern.</p>
+</section>
+</div>
+<div class="takeaway-box">
+<p><strong>What to look out for</strong></p>
+<p>These charts are best used to compare <strong>who was accused</strong>, <strong>how strongly their sentiment differs from the group average</strong>, and <strong>how much data supports that reading</strong>. The bars show the sentiment pattern, while the circles help users judge whether that pattern is based on broad evidence or only a small number of records.</p>
+</div>
+</section>
+<section id="network-graph-reconstructing-the-full-picture" class="level2">
+<h2 class="anchored" data-anchor-id="network-graph-reconstructing-the-full-picture">6. Network Graph: Reconstructing the Full Picture</h2>
+<p>This visual brings everything together by showing how COOTEFOO members are connected to different topics through their discussions, activities, and plans. Instead of looking at topics or members separately, this graph shows how they are linked as a network.</p>
+<section id="main-chart-cootefoo-network-graph" class="level3 info-card">
+<h3 class="anchored" data-anchor-id="main-chart-cootefoo-network-graph">Main chart: COOTEFOO network graph</h3>
+<p><img src="images/network-graph.png" class="img-fluid" style="width:100.0%"></p>
+<p>This network graph connects members to the topics they were involved in.</p>
+<p>How to read it: - <strong>Beige nodes</strong> represent COOTEFOO members. - <strong>Blue nodes</strong> represent tourism-related topics. - <strong>Pink nodes</strong> represent fishing-related topics. - Each <strong>line (edge)</strong> connects a member to a topic they interacted with.</p>
+<p>This allows users to see how members are linked across different topics and whether their activity is concentrated in certain areas.</p>
+</section>
+<div class="card-grid">
+<section id="understanding-the-connections-edges" class="level3 info-card">
+<h3 class="anchored" data-anchor-id="understanding-the-connections-edges">Understanding the connections (edges)</h3>
+<ul>
+<li><p>The <strong>thickness of the line</strong> shows how frequently a member interacted with a topic.<br>
+→ Thicker lines mean more repeated discussions or involvement.</p></li>
+<li><p>The <strong>colour of the line</strong> reflects sentiment:</p>
+<ul>
+<li><strong>Green</strong> → more positive sentiment<br>
+</li>
+<li><strong>Red</strong> → more negative sentiment<br>
+</li>
+<li><strong>Grey</strong> → more neutral or mixed sentiment</li>
+</ul></li>
+</ul>
+<p>This helps users understand not just <em>what</em> was discussed, but also <em>how</em> members felt about those topics.</p>
+</section>
+<section id="understanding-the-nodes" class="level3 info-card">
+<h3 class="anchored" data-anchor-id="understanding-the-nodes">Understanding the nodes</h3>
+<ul>
+<li><p><strong>Node size (for members)</strong> reflects how active they are overall.<br>
+→ Larger nodes indicate members who participated in more discussions, activities, or plans.</p></li>
+<li><p>Topic nodes remain similar in size, but their <strong>colour indicates category</strong>:</p>
+<ul>
+<li>Blue → Tourism<br>
+</li>
+<li>Pink → Fishing</li>
+</ul></li>
+</ul>
+<p>This makes it easier to see which members are more connected to tourism or fishing topics at a glance.</p>
+</section>
+</div>
+<div class="takeaway-box">
+<p><strong>What to look out for</strong></p>
+<p>This graph is most useful for identifying <strong>overall patterns of engagement</strong>. Users can look for clusters of connections, heavily connected members, and whether activity is concentrated around tourism or fishing topics. Thick green links suggest strong and consistent support, while mixed or thinner links may indicate weaker or more varied involvement.</p>
+</div>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>
