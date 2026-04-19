@@ -265,3 +265,14 @@
   color: #556270;
   line-height: 1.7;
 }
+
+.workflow-box {
+  background: #f8fbfe;
+  border: 1px solid #dce5ee;
+  border-radius: 12px;
+  padding: 1.2rem 1.5rem;
+  margin-top: 1.5rem;
+  font-weight: 500;
+  color: #2c3e50;
+  text-align: center;
+}

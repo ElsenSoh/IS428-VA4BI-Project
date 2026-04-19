@@ -151,6 +151,48 @@
     "href": "methodology.html",
     "title": "Methodology",
     "section": "",
-    "text": "## Data Sources\n\nDescribe the datasets used in this project.\n\n## Analytical Approach\n\nExplain how your team used visual analytics to investigate the case.\n\n## Tools and Techniques\n\nState the tools used, such as Tableau, Quarto, GitHub, and Vercel."
+    "text": "Our approach follows a structured end-to-end pipeline, transforming raw, fragmented records into meaningful visual insights. By combining data preparation, network analysis, and interactive visualisation, we reconstruct a more complete view of COOTEFOO’s activities and uncover patterns that may not be visible in isolated datasets."
+  },
+  {
+    "objectID": "methodology.html#data-collection-and-structuring",
+    "href": "methodology.html#data-collection-and-structuring",
+    "title": "Methodology",
+    "section": "1. Data Collection and Structuring",
+    "text": "1. Data Collection and Structuring\nWe began by consolidating raw datasets from three sources: TROUT, FILAH, and the journalist records. Each dataset captures different subsets of COOTEFOO’s activities, making it necessary to align them into a common structure before analysis.\nThe data was originally stored in a JSON node-edge format, where: - nodes represent entities such as members and discussion topics\n- edges represent relationships, interactions, or connections between them\nThis structure allows us to analyse not just individual data points, but also how different actors and topics are connected within the broader network."
+  },
+  {
+    "objectID": "methodology.html#data-cleaning-and-transformation",
+    "href": "methodology.html#data-cleaning-and-transformation",
+    "title": "Methodology",
+    "section": "2. Data Cleaning and Transformation",
+    "text": "2. Data Cleaning and Transformation\nThe raw JSON data required significant preprocessing before it could be used for analysis. Using Python (Pandas and NumPy), we transformed the datasets into structured formats suitable for both visualisation and comparison.\nKey steps included: - Converting JSON records into tabular CSV formats\n- Standardising naming conventions across datasets\n- Creating node and edge tables for network analysis\n- Engineering additional features such as: - topic groupings (tourism vs fishing)\n- sentiment or bias indicators\n- engagement and interaction counts\nThese transformations ensured that all datasets could be analysed consistently despite their differences in coverage."
+  },
+  {
+    "objectID": "methodology.html#network-graph-construction",
+    "href": "methodology.html#network-graph-construction",
+    "title": "Methodology",
+    "section": "3. Network Graph Construction",
+    "text": "3. Network Graph Construction\nTo better understand relationships within the data, we constructed a network graph using Gephi.\nIn this graph: - nodes represent COOTEFOO members and discussion topics\n- edges represent interactions between them\nThis network-based view allows us to move beyond simple counts and observe: - which topics dominate discussions\n- how members are connected across different themes\n- whether certain patterns (e.g. tourism vs fishing) are more prominent\nThis step was critical in reconstructing the “full picture” beyond what individual datasets suggested."
+  },
+  {
+    "objectID": "methodology.html#visual-analytics-and-dashboard-development",
+    "href": "methodology.html#visual-analytics-and-dashboard-development",
+    "title": "Methodology",
+    "section": "4. Visual Analytics and Dashboard Development",
+    "text": "4. Visual Analytics and Dashboard Development\nWe used Tableau to translate the processed data into interactive visualisations.\nThese dashboards were designed to: - compare sentiment and engagement across datasets\n- highlight differences between FILAH and TROUT’s claims\n- allow users to explore patterns at both group and individual levels\nRather than presenting static charts, we focused on building visuals that support exploration and comparison, helping users see how different narratives emerge from different subsets of data."
+  },
+  {
+    "objectID": "methodology.html#web-deployment-and-presentation",
+    "href": "methodology.html#web-deployment-and-presentation",
+    "title": "Methodology",
+    "section": "5. Web Deployment and Presentation",
+    "text": "5. Web Deployment and Presentation\nFinally, we brought all components together into an interactive website.\nThe project was developed using: - GitHub for version control and collaboration\n- Quarto for structuring and presenting analytical content\n- Vercel for deployment and hosting\nThis allows our findings to be presented in a clear, accessible format, where users can navigate through the analysis and interact with the results."
+  },
+  {
+    "objectID": "methodology.html#overall-workflow",
+    "href": "methodology.html#overall-workflow",
+    "title": "Methodology",
+    "section": "Overall Workflow",
+    "text": "Overall Workflow\n\nJSON → Python (Cleaning & Transformation) → Gephi (Network Analysis) → Tableau (Visualisation) → Web Deployment"
   }
 ]
