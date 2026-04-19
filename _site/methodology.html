@@ -169,7 +169,8 @@ ul.task-list li input[type="checkbox"] {
 <section id="data-collection-and-structuring" class="level2">
 <h2 class="anchored" data-anchor-id="data-collection-and-structuring">1. Data Collection and Structuring</h2>
 <p>We began by consolidating raw datasets from three sources: TROUT, FILAH, and the journalist records. Each dataset captures different subsets of COOTEFOO’s activities, making it necessary to align them into a common structure before analysis.</p>
-<p>The data was originally stored in a JSON node-edge format, where: - <strong>nodes</strong> represent entities such as members and discussion topics<br>
+<p>The data was originally stored in a JSON node-edge format, where:<br>
+- <strong>nodes</strong> represent entities such as members and discussion topics<br>
 - <strong>edges</strong> represent relationships, interactions, or connections between them</p>
 <p>This structure allows us to analyse not just individual data points, but also how different actors and topics are connected within the broader network.</p>
 <hr>
@@ -177,7 +178,8 @@ ul.task-list li input[type="checkbox"] {
 <section id="data-cleaning-and-transformation" class="level2">
 <h2 class="anchored" data-anchor-id="data-cleaning-and-transformation">2. Data Cleaning and Transformation</h2>
 <p>The raw JSON data required significant preprocessing before it could be used for analysis. Using Python (Pandas and NumPy), we transformed the datasets into structured formats suitable for both visualisation and comparison.</p>
-<p>Key steps included: - Converting JSON records into tabular CSV formats<br>
+<p>Key steps included:<br>
+- Converting JSON records into tabular CSV formats<br>
 - Standardising naming conventions across datasets<br>
 - Creating node and edge tables for network analysis<br>
 - Engineering additional features such as: - topic groupings (tourism vs fishing)<br>
@@ -189,7 +191,8 @@ ul.task-list li input[type="checkbox"] {
 <section id="network-graph-construction" class="level2">
 <h2 class="anchored" data-anchor-id="network-graph-construction">3. Network Graph Construction</h2>
 <p>To better understand relationships within the data, we constructed a network graph using Gephi.</p>
-<p>In this graph: - <strong>nodes</strong> represent COOTEFOO members and discussion topics<br>
+<p>In this graph:<br>
+- <strong>nodes</strong> represent COOTEFOO members and discussion topics<br>
 - <strong>edges</strong> represent interactions between them</p>
 <p>This network-based view allows us to move beyond simple counts and observe: - which topics dominate discussions<br>
 - how members are connected across different themes<br>
@@ -200,7 +203,8 @@ ul.task-list li input[type="checkbox"] {
 <section id="visual-analytics-and-dashboard-development" class="level2">
 <h2 class="anchored" data-anchor-id="visual-analytics-and-dashboard-development">4. Visual Analytics and Dashboard Development</h2>
 <p>We used Tableau to translate the processed data into interactive visualisations.</p>
-<p>These dashboards were designed to: - compare sentiment and engagement across datasets<br>
+<p>These dashboards were designed to:<br>
+- compare sentiment and engagement across datasets<br>
 - highlight differences between FILAH and TROUT’s claims<br>
 - allow users to explore patterns at both group and individual levels</p>
 <p>Rather than presenting static charts, we focused on building visuals that support exploration and comparison, helping users see how different narratives emerge from different subsets of data.</p>
@@ -209,7 +213,8 @@ ul.task-list li input[type="checkbox"] {
 <section id="web-deployment-and-presentation" class="level2">
 <h2 class="anchored" data-anchor-id="web-deployment-and-presentation">5. Web Deployment and Presentation</h2>
 <p>Finally, we brought all components together into an interactive website.</p>
-<p>The project was developed using: - <strong>GitHub</strong> for version control and collaboration<br>
+<p>The project was developed using:<br>
+- <strong>GitHub</strong> for version control and collaboration<br>
 - <strong>Quarto</strong> for structuring and presenting analytical content<br>
 - <strong>Vercel</strong> for deployment and hosting</p>
 <p>This allows our findings to be presented in a clear, accessible format, where users can navigate through the analysis and interact with the results.</p>
@@ -218,7 +223,8 @@ ul.task-list li input[type="checkbox"] {
 <section id="overall-workflow" class="level2">
 <h2 class="anchored" data-anchor-id="overall-workflow">Overall Workflow</h2>
 <div class="workflow-box">
-<p><strong>JSON → Python (Cleaning &amp; Transformation) → Gephi (Network Analysis) → Tableau (Visualisation) → Web Deployment</strong></p>
+<p><strong>JSON → Python (Cleaning &amp; Transformation) → Gephi (Network Analysis)</strong><br>
+<strong>Tableau (Visualisation) → Web Deployment</strong></p>
 </div>
 
 

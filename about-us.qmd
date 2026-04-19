@@ -22,8 +22,7 @@ Through this challenge, we worked collaboratively across data preparation, analy
 
 Year 4
 
-*Quant Economics, \
-Data Science & Analytics*
+*Quantitative Economics, Data Science & Analytics*
 :::
 
 ::: profile-card
@@ -31,8 +30,8 @@ Data Science & Analytics*
 
 Year 3
 
-*Information Systems (Business Analytics) & \
-Business Management (Quant Finance)*
+*Information Systems (Business Analytics) &\
+Business Management (Quantitative Finance)*
 :::
 
 ::: profile-card

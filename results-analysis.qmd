@@ -72,7 +72,7 @@ Tourism-related topics appear to dominate both member attention and sentiment, w
 Our third analysis brings together the broader combined dataset to reconstruct a fuller picture of COOTEFOO’s behaviour. Unlike the earlier accusation-based visuals, this network graph captures how members, topics, and interactions connect when viewed in wider context.
 
 ::: {.info-card .result-feature}
-![](images/reconstructing-full-picture.png){width="80%"}
+![](images/network-graph.png){width="100%"}
 
 The combined knowledge graph suggests that COOTEFOO is more tourism-leaning overall. Tourism-related topics appear more prominent in the network, with more members connected across multiple tourism activities and visibly stronger interaction patterns.
 
